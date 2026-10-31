@@ -73,16 +73,17 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
             <Ship className="w-5.5 h-5.5 text-[#2251FF]" />
           </div>
           <div className="min-w-0">
-            <div className="flex flex-wrap items-center gap-2">
-              <h1 className="font-garamond text-lg sm:text-xl font-bold text-[#051C2C] tracking-tight leading-snug">
-                Booking-Level Profitability &amp; Job Costing Engine
-              </h1>
-              <span className="bg-[#2251FF]/10 text-[#2251FF] text-[10px] font-semibold uppercase px-2.5 py-0.5 rounded-full shrink-0">
-                SaaS Engine
+            <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+              <span className="font-garamond text-lg sm:text-xl font-bold text-[#051C2C] tracking-tight leading-snug">
+                Theseus Workshop
+              </span>
+              <span className="h-3.5 w-[1px] bg-[#D4D4D0] hidden sm:inline-block self-center" />
+              <span className="text-xs sm:text-[13px] font-semibold text-[#051C2C] tracking-tight">
+                Booking-Level Profitability &amp; Job Costing Engine for Freight Forwarders
               </span>
             </div>
             <p className="text-[11px] font-medium text-[#888888] tracking-wide mt-0.5">
-              for Freight Forwarders &amp; Logistics Service Providers
+              Container cost allocation, automated revenue/cost reconciliation &amp; route margin analytics
             </p>
           </div>
         </div>

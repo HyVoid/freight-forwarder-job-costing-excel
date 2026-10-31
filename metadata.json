@@ -1,6 +1,6 @@
 {
   "name": "Booking-Level Profitability & Job Costing Engine for Freight Forwarders",
-  "description": "SaaS Freight Forwarding Booking-level Profitability and Job Costing Engine with real-time financial lookup chain calculations, container cost allocation, and multi-tab analytics.",
+  "description": "Theseus Workshop - Booking-Level Profitability & Job Costing Engine for Freight Forwarders. Precision container cost allocation, automated freight margin calculations, and multi-leg job financial reconciliation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

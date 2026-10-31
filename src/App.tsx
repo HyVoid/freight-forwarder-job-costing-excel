@@ -76,7 +76,7 @@ export default function App() {
       'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(state, null, 2));
     const downloadAnchor = document.createElement('a');
     downloadAnchor.setAttribute('href', dataStr);
-    downloadAnchor.setAttribute('download', `freight-engine-backup-${dateStr}.json`);
+    downloadAnchor.setAttribute('download', `Theseus-Workshop-Booking-Profitability-Engine-backup-${dateStr}.json`);
     document.body.appendChild(downloadAnchor);
     downloadAnchor.click();
     downloadAnchor.remove();
@@ -211,10 +211,10 @@ export default function App() {
       <footer className="border-t border-[#E8E8E6] bg-white py-4 px-6 text-center text-xs text-[#888888]">
         <div className="max-w-[1400px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-[11px]">
-            All data storage for this tool is retained locally in your browser (localStorage). The page itself does not store any user data on external servers.
+            All data in this tool is stored in your browser&apos;s localStorage. The page itself does not retain any user data.
           </p>
           <p className="text-[11px] font-mono text-[#051C2C]">
-            Freight Forwarding Job Costing Engine &copy; 2026
+            Theseus Workshop &copy; 2026
           </p>
         </div>
       </footer>
