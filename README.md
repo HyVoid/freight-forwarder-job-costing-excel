@@ -1,171 +1,175 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Freight Forwarder Job Costing Excel Template & Shipment Profitability Calculator (Booking-Level P&L)
+# Freight Forwarder Job Costing Excel Template: Shipment Profit & Loss (P&L) Calculator, Container Cost Allocation & Margin Tracker
 <img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/f89c1a0f-f576-43af-b26a-02bae4a47348" />
 
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-217346.svg)](#) [![Tool Type](https://img.shields.io/badge/Tool%20Type-Financial%20Spreadsheet%20Model-2251FF.svg)](#)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Web%20Browser%20%2B%20Microsoft%20Excel%20(.xlsx)-217346.svg)](#) [![Tool Type](https://img.shields.io/badge/Tool%20Type-Plug--and--Play%20Freight%20Accounting%20Spreadsheet-2251FF.svg)](#)
 
-**An audit-ready Freight Forwarder Job Costing Excel Template and Interactive Shipment P&L Calculator built to track booking-level gross margin, multi-currency FX conversions, FCL/LCL container cost allocation, and freight charge profitability. Reconcile customer AR invoices, carrier AP bills, drayage, customs brokerage, and bank wire fees in one standardized logistics financial model—available free in your browser or as an unlocked Excel spreadsheet.**
+**A ready-to-use Freight Forwarder Job Costing Excel Template (`.xlsx`) and Free Online Shipment Profitability Calculator built for freight forwarders, NVOCCs, customs brokers, and 3PL operators who need to calculate net profit per shipment without writing formulas.** Track **Bill of Lading (B/L) and Air Waybill (AWB) gross margins**, automate **multi-currency FX conversions (USD, EUR, CNY, GBP)**, split **FCL/LCL container costs**, and reconcile **customer AR invoices against ocean carrier, drayage, customs brokerage, and bank wire AP bills** in one pre-built logistics profit and loss spreadsheet.
 
-**No signup. No installation. Free to test in your browser.**
+**Test it free in your browser right now, or download the unlocked Excel file to paste your own shipment data.**
 
-Use the interactive web application to inspect the job-costing workflow immediately, or download the full Excel spreadsheet template to import your own accounting exports—backed by a 30-day, no-questions-asked money-back guarantee.
+Every lookup rule, currency conversion, and container cost-splitting formula is already built in. Paste your billing rows from QuickBooks, Xero, or your operational tracking sheet to see your exact profit per booking, container, and freight charge code in seconds, backed by a 30-day money-back guarantee.
 
-> 🌐 **Launch Free Web App** → [Interactive Freight Forwarding Job Costing & Shipment P&L Web Calculator](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)  
-> 📥 **Get the Full Excel Model** → [Download the Editable Freight Forwarder Job Costing & Booking Profitability Excel Template](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)  
+> 🌐 **Try the Online Calculator First** → [Launch the Free Interactive Freight Forwarder Job Costing & Shipment P&L Web Calculator (Browser Demo, Zero Setup Required)](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)  
+> 📥 **Download the Ready-to-Use Excel Template** → [Get the Unlocked Freight Forwarder Job Costing & Shipment Profitability Excel Template (.xlsx with Auto-Updating Formulas)](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)  
 >
-> *Both the browser edition and the downloadable Excel workbook share the exact same relational accounting architecture.*
+> *Both the free web calculator and the downloadable Microsoft Excel workbook run on the exact same pre-configured freight accounting tables and automated margin formulas.*
 
 ---
 
 ## What It Helps You Track: Freight Forwarding Pain-Point to Solution Mapping
 
-Instead of waiting for month-end aggregate accounting reports, this **logistics job-costing spreadsheet** tracks and resolves the exact operational blind spots that cause **margin leakage** in ocean, air, and multimodal freight forwarding:
+Waiting for month-end accounting reports hides which individual shipments actually made or lost money. This **plug-and-play freight job costing spreadsheet** fixes the five most common operational accounting blind spots in ocean freight, air cargo, and multimodal forwarding:
 
-| Target Tracking Metric / Pain Point | The Common Freight Accounting Blind Spot | How This Job Costing Model Solves & Tracks It |
+| High-Frequency Search Topic & Tracking Goal | The Daily Freight Accounting Pain Point (Why Margin Leaks) | How This Automated Excel Template Fixes & Tracks It |
 | :--- | :--- | :--- |
-| **Booking-Level P&L & Gross Margin %** | Profit is only visible at the monthly company-wide level, hiding loss-making shipments and underpriced lanes. | Tracks **AR Revenue vs. AP COGS vs. Bank Wire Fees** per individual Booking ID (B/L or AWB level) to expose real-time **Net Profit and Margin %**. |
-| **Charge-Code & Accessorial Profitability** | Knowing total shipment revenue without knowing if Ocean Freight, Drayage, Customs, or Demurrage actually made money. | Tracks margin contribution across granular **Freight Service Codes** (Ocean Freight, THC, Origin Inspection, Cargo Insurance, Documentation, Coordination). |
-| **Multi-Container (FCL) Shared Cost Allocation** | When one Master B/L has multiple containers, booking-level flat fees get duplicated or ignored during container-level analysis. | Separates **direct container costs** from **shared booking-level costs**, automatically allocating shared fees across containers using a controlled policy. |
-| **Multi-Currency (FX) Gain/Loss & Normalization** |Paying ocean carriers in USD, origin agents in EUR/CNY, and billing clients in local currency using inconsistent manual exchange rates. | Converts all mixed-currency AR/AP lines to a **standardized USD basis** via a centralized FX lookup table with automated missing-rate exception flags. |
-| **Unlinked Vendor Costs & Data-Health Auditing** | Typos in Booking IDs, invalid charge codes, or missing FX rates silently drop vendor costs to $0, creating artificially inflated profit margins. | Runs an automated **Data-Health Diagnostic Engine** (`ERR: UNKNOWN_CURRENCY`, `ERR: INVALID_BOOKING`) that quarantines broken records before they corrupt your P&L. |
+| **Profit Per Shipment & Booking-Level P&L (`B/L` & `AWB` Margin)** | QuickBooks and Xero group invoices by calendar month, hiding money-losing shipments, underpriced quotes, and unprofitable trade lanes. | Matches **Customer AR Revenue, Vendor AP Bills, and Bank Wire Fees** to each individual `Booking_ID` so you see real-time **Net Profit ($) and Gross Margin (%) per shipment**. |
+| **Freight Charge Code & Accessorial Profitability** | You know the total invoice amount, but cannot tell if you lost money on **Ocean Freight, Local Drayage, THC, Customs Clearance, Demurrage, or Cargo Insurance**. | Breaks down revenue vs. vendor cost across granular **Freight Service Codes** (`Ocean Freight`, `THC`, `Origin Inspection`, `Drayage`, `Customs`, `Documentation`) to expose hidden cost overruns. |
+| **FCL Multi-Container Shared Cost Allocation (`TEU` / `FEU` Split)** | When one Master Bill of Lading (MBL) covers multiple containers, flat booking fees (like customs entry or B/L documentation) get double-counted or left out of per-container pricing. | Separates **direct per-container costs** from **shared booking-level fees**, automatically dividing shared costs evenly across all active containers in that booking. |
+| **Multi-Currency Freight Invoice Conversion (`USD`, `EUR`, `CNY`, `GBP`)** | Paying ocean carriers in USD, origin agents in CNY or EUR, and billing clients in local currency using manual calculator rates causes month-end exchange rate losses. | Converts every mixed-currency AR and AP line item into your **single Base Reporting Currency** using a central FX lookup table, flagging any unconfigured currency code immediately. |
+| **Missing Vendor Bills & Broken Spreadsheet Typo Detection** | A single typo in a Booking ID inside a manual `SUMIFS` or `VLOOKUP` sheet silently drops a $2,000 carrier bill to `$0`, inflating profit and overpaying sales commissions. | Runs an automatic **Data-Health Check** (`ERR: UNKNOWN_CURRENCY`, `ERR: INVALID_BOOKING`) that highlights broken rows in plain sight while keeping your dashboard totals intact. |
 
 ---
 
-## How to Run a Shipment Profitability & Job Costing Audit (Quick Start Workflow)
+## How to Calculate Shipment Profit & Run a Freight Job Costing Audit (4-Step Beginner Tutorial)
 
-Turn messy ERP/accounting exports, carrier invoices, and operational spreadsheets into a clean **Booking-level P&L statement** in four structured steps:
+You do not need accounting training or Excel formula skills to audit your shipment margins. Follow these four steps to turn raw invoice lists and carrier bills into an accurate **Booking-by-Booking Profit and Loss statement**:
 
-### Step 1: Configure Base Currency, FX Rates & Allocation Rules
-Open the `Setup_Params` control sheet to establish your freight accounting baseline:
-- Define your **Base Reporting Currency** (e.g., USD) and populate reference **Foreign Exchange (FX) Rates**.
-- Map your **Transaction Types** (Customer Revenue, Direct COGS, Bank/Wire Fees, Customer Deposits).
-- Select your **Shared-Cost Allocation Policy** for multi-container FCL shipments.
+### Step 1: Set Your Base Currency, Exchange Rates & Container Split Policy
+Open the `Setup_Params` tab to set your company's baseline rules in plain English:
+- Choose your **Base Reporting Currency** (such as `USD`, `EUR`, or `GBP`) and enter your standard **Foreign Exchange (FX) Rates**.
+- Review the pre-mapped **Transaction Categories** (`Customer Revenue`, `Direct Vendor COGS`, `Bank Wire Fees`, and `Customer Deposits`).
+- Select your **Shared-Cost Allocation Rule** for multi-container FCL shipments.
 
-*Action:* Inspect the pre-configured parameter structure instantly in the [Free Browser Job Costing Demo](https://hyvoid.github.io/freight-forwarder-job-costing-excel/).
-
----
-
-### Step 2: Import Booking Master Records & Raw AR/AP Transactions
-Populate your master lists (Bookings, Containers, and Freight Service Catalog), then paste or load your financial line items into `Raw_Transactions`:
-- **Compatible Data Sources:** QuickBooks/Xero exports, TMS billing logs, ocean carrier/NVOCC freight invoices, customs broker statements, and manual operational trackers.
-- **No manual VLOOKUP rebuilding required**—simply drop raw rows into the standardized transaction table.
+*Try it live:* Preview how the setup table works right now in the [Free Online Freight Forwarding Job Costing Browser Calculator](https://hyvoid.github.io/freight-forwarder-job-costing-excel/).
 
 ---
 
-### Step 3: Audit Data-Health Exceptions & Review Automated Shipment P&L
-As soon as transactions are loaded, the job costing engine automatically:
-- Normalizes foreign currencies to your base reporting currency.
-- Flags broken master-data links (`Data Health Status`) so unlinked vendor bills never hide as zero-cost items.
-- Aggregates verified lines into **Booking-Level P&L**, **Service-Line Margin Breakdown**, and **Container-Level Unit Economics**.
+### Step 2: Paste Your Bookings, Containers & Raw AR/AP Invoice Lines
+Drop your shipment IDs into the master lists (`Bookings` and `Containers`), then copy and paste your billing rows directly into the `Raw_Transactions` table:
+- **Works with any data source:** QuickBooks Online / Desktop exports, Xero CSV dumps, CargoWise or Magaya billing logs, ocean carrier freight bills, customs broker statements, and manual dispatch trackers.
+- **Zero manual formula dragging:** The Excel tables expand automatically when you paste new rows.
 
 ---
 
-### Step 4: Refresh Periodically & Export to Excel for Ongoing Operations
-As new vessel sailings, supplier invoices, or detention/demurrage charges arrive, append them to the transaction log to keep your shipment margins updated across billing cycles.
-
-> 💡 **Ready to run this on your own live shipment data and accounting exports?**  
-> The browser version is built for instant workflow verification and single-session testing. To import your own CSV/Excel accounting dumps, customize freight charge catalogs, save monthly closing snapshots, and audit every formula offline:  
-> 👉 **[Download the Unlocked Freight Forwarder Job Costing Excel Template](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)** and turn this into your repeatable monthly shipment profitability engine.
-
----
-
-## The Business Logic & Methodology
-
-Standard accounting software (like QuickBooks or Xero) is built around **Chart of Accounts and Calendar Months**, whereas freight forwarders operate around **Bookings, Bills of Lading (B/L), and Containers** whose revenue and vendor bills often span multiple months and currencies. 
-
-To solve the mismatch between general ledger accounting and operational logistics, this toolkit implements a **4-pillar relational costing methodology**:
-
-1. **Relational Entity-Hierarchy Modeling (`Booking → Container → Service Line`):**  
-   In freight operations, costs occur at different structural levels. A customs clearance fee or Bill of Lading documentation charge applies once per **Booking**, whereas terminal handling charges (THC), drayage, or chassis split fees apply per **Container (TEU/FEU)**. Flattening these into a single table causes severe double-counting. This engine enforces a strict relational hierarchy: direct container costs bind to `Container_ID`, while shipment-wide overheads bind to `Booking_ID` and distribute dynamically via a deterministic allocation formula:
-   $$\text{Container Allocated Cost} = \text{Direct Container Cost} + \frac{\text{Booking-Level Shared Costs}}{\text{Total Active Containers in Booking}}$$
-2. **Decoupled Diagnostic State vs. Numeric Aggregation (Zero-Silent-Failure Architecture):**  
-   In standard Excel spreadsheets, a misspelled Booking ID in a `SUMIFS` formula silently ignores a $2,000 ocean carrier invoice—making a loss-making shipment look wildly profitable. Conversely, a `#N/A` error in a `VLOOKUP` breaks the entire P&L dashboard. This model uses a **Dual-Track Evaluation Method**: every transaction row passes through a referential integrity gate (`Data_Health_Status`) that validates Booking IDs, Service Codes, and Currency keys before math execution. Invalid rows output explicit diagnostic strings (`ERR: UNKNOWN_CURRENCY`, `ERR: ORPHAN_BOOKING`) while passing a safe `0` to the aggregation engine, ensuring the dashboard never crashes while visually alerting analysts to incomplete margin data.
-3. **Centralized Multi-Currency Triangulation:**  
-   Cross-border forwarding involves paying origin agents in CNY/EUR, settling ocean freight in USD, and absorbing intermediary bank wire fees. The model normalizes every raw transaction row at the line-item level ($T_i \times \text{FX}_{\text{rate}}$) prior to P&L roll-up, eliminating the rounding distortions and exchange-rate drift common in manual summary conversions.
-4. **Cash-Flow vs. Accrual P&L Separation (Deposits vs. Earned Revenue):**  
-   Freight forwarders frequently collect upfront customer deposits or advance customs duties before a vessel sails. Mixing customer deposits with earned freight revenue distorts true gross margin. The transaction classification engine explicitly isolates **Balance-Sheet Deposits** from **P&L Revenue, COGS, and Bank Fees**, delivering an accurate unit-margin view alongside cash-position visibility.
+### Step 3: Check Automatic Error Alerts & View Your Shipment P&L Dashboard
+The moment you paste your data, the spreadsheet calculates everything in the background:
+- Converts foreign-currency vendor bills and customer invoices into your base currency.
+- Flags any misspelled Booking IDs or missing currency rates in the `Data Health Status` column so an unlinked vendor bill never hides as a zero-cost item.
+- Updates your **Booking-Level Profit & Loss Summary**, **Freight Service-Code Margin Table**, and **Per-Container Unit Cost Breakdown**.
 
 ---
 
-## Why I Built This: Fixing the Broken Analytical Chain in Freight Forwarding
+### Step 4: Download the Unlocked Excel Template for One-Click Monthly Reuse
+The free browser calculator is great for a quick single-session check. When you need to save your data locally, import hundreds of monthly accounting rows, and track ongoing vessel sailings across billing cycles, switch to the downloadable `.xlsx` workbook.
 
-Freight-forwarding profitability is much harder to see than it looks on a sales quote.
+> 💡 **Why Busy Forwarders Download the Excel File Instead of Building Their Own Sheet:**  
+> Cross-currency freight reconciliation, multi-container cost splitting, and orphan bill detection involve complex accounting logic under the hood. **In this Excel template, every matching rule, lookup link, and auto-expanding formula is already built and tested for you.**  
+> 
+> You do not even need to click and drag cell corners to copy formulas down. Simply download the file to your computer, paste your raw billing data, and get instant, audit-ready profit numbers. During peak shipping seasons, spend your time winning shipper quotes, securing vessel space, and moving cargo—while letting a simple copy-and-paste template handle your financial analysis in seconds.  
+> 
+> 👉 **[Download the Unlocked Freight Forwarder Job Costing Excel Template (.xlsx) and Automate Your Shipment P&L Today](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)**
 
-A single Ocean or Air Booking can involve customer freight charges, origin inspection, cargo insurance, documentation fees, local drayage, carrier ocean freight, bank wire fees, customer deposits, 3+ currencies, and multiple containers—scattered across disparate operational trackers and accounting exports.
+---
 
-When forwarders lose money on a shipment, the root cause is rarely bad pricing intent. **It is a broken analytical chain:**
-- A shipment looks like a **38.8% gross margin winner** because a $1,500 drayage vendor invoice had a typo in the Booking reference and was excluded from the `SUMIFS` formula.
-- A foreign-currency origin agent charge was omitted because its FX rate wasn't updated in the lookup table.
-- Shared booking-level customs and documentation costs were accidentally multiplied across 5 containers—or ignored entirely—when quoting per-container rates to the client.
+## The Business Logic & Methodology: 4 Hidden Profit Blind Spots This Excel Template Solves for You
 
-For example, instead of blindly trusting a flawed summary like this:
+Most freight forwarders lose money on shipments not because they quoted the wrong ocean rate, but because standard accounting tools and homemade Excel sheets hide where the money actually goes. Here is how this template protects your bottom line in plain terms—even if you have zero formal accounting background:
+
+### 1. Monthly Accounting Software Hides Money-Losing Shipments (Booking-Level Matching vs. Monthly Totals)
+**The Objective Fact:** Standard accounting software like QuickBooks or Xero organizes money by **calendar month**, while freight forwarding happens by **Booking, Bill of Lading (B/L), and Container**. If you invoice a customer $8,000 in October, but the ocean carrier and drayage trucker bill you $7,500 in November, October looks artificially profitable and November looks like a loss.  
+**Your Direct Benefit:** This template groups every dollar of revenue, vendor cost, and bank wire fee by `Booking_ID` regardless of what month the invoice arrives. You see the true net profit of every single shipment before you renew a client's rate card or pay out sales commissions.
+
+### 2. Flat Booking Fees vs. Per-Container Costs Distort Your Quotes (Automatic FCL Container Cost Splitting)
+**The Objective Fact:** In ocean and multimodal freight, some costs happen once per **Booking** (like a $150 customs clearance fee or B/L documentation charge), while other costs happen per **Container** (like $450 terminal handling charges or local drayage per 40'HC box). In a basic spreadsheet, operators either multiply the $150 customs fee across 5 containers by mistake (inflating cost estimates by $600 and losing the bid) or forget to include shared booking fees when calculating per-container profit.  
+**Your Direct Benefit:** The template separates container-specific costs from booking-wide shared costs and splits shared fees evenly across the exact number of containers in that booking:
 
 ```text
-Booking Revenue        $8,500
-Reported COGS          $5,200
-Apparent Net Profit    $3,300
-Reported Margin         38.8%  <-- (Artificially inflated by missing vendor bill)
+Single Container Total Cost = Direct Container Cost + (Shared Booking Costs ÷ Total Containers in Booking)
+
 ```
 
-This costing engine immediately flags that the underlying transaction dataset contains an **unlinked vendor cost** or an **unconfigured currency (`ERR: UNKNOWN_CURRENCY`)**. The Booking is visibly quarantined for data cleanup rather than presented to management as a clean 38.8% margin.
+You get exact per-container unit costs without doing manual division.
 
-The objective is not another pretty vanity dashboard. It is a **defensible financial reasoning framework** that guarantees your Booking-level P&L is mathematically sound before you pay sales commissions or renew customer rate cards.
+### 3. One Typo in a Homemade Spreadsheet Silently Fakes High Profit (Built-In Typo & Missing-Cost Detection)
+
+**The Objective Fact:** In a standard Excel sheet built with `SUMIFS`, a single typo in a Booking reference number on a $1,500 drayage vendor bill causes Excel to ignore that bill completely and add `$0` to your costs. Conversely, a broken `VLOOKUP` turns your entire summary table into `#N/A` errors. Look at how a single unlinked vendor invoice distorts a real booking:
+
+```text
+Reported Booking Revenue:   $8,500
+Reported Vendor Costs:      $5,200  <-- ($1,500 drayage bill skipped due to a Booking ID typo)
+Apparent Net Profit:        $3,300  <-- (Overstated by $1,500)
+Apparent Profit Margin:      38.8%  <-- (Fake margin; actual real margin is only 21.1%)
+
+```
+
+If you trust that 38.8% number, you overpay sales rep commissions out of your own pocket and keep quoting a lane that barely breaks even.
+
+**Your Direct Benefit:** Every row you paste goes through an automatic **Data-Health Check**. If a row has a misspelled Booking ID, an invalid charge code, or a missing currency rate, the template flags it clearly (`ERR: INVALID_BOOKING` or `ERR: UNKNOWN_CURRENCY`) while keeping your summary math running cleanly. You catch missing vendor bills before they cost you money.
+
+### 4. Foreign Currencies and Upfront Customer Deposits Distort Real Gross Margin (Row-Level FX & Deposit Isolation)
+
+**The Objective Fact:** Cross-border shipments routinely combine USD ocean freight, CNY or EUR origin agent bills, intermediary bank wire fees, and upfront customer deposits. Converting currency totals by hand at the end of the month introduces exchange-rate errors, and counting upfront customer deposits as earned revenue makes a shipment look profitable before vendor bills are even paid.
+
+**Your Direct Benefit:** The template converts every foreign-currency bill into your base currency at the individual row level and separates **Customer Deposits (Cash Held)** from **Earned Freight Revenue and COGS**. You see both your real profit margin and your actual cash position side by side.
 
 ---
 
-## Ad-Hoc Accounting Spreadsheets vs. This Freight Job Costing Engine
+## Manual Freight Spreadsheets & Generic Accounting Software vs. This Automated Shipment Job Costing Excel Template
 
-| Evaluation Dimension | Manual Spreadsheets & Generic Accounting (Without This Tool) | Standardized Freight Job Costing Engine (With This Tool) |
+| Operational Comparison Factor | Manual Excel Sheets & Generic Accounting (QuickBooks / Xero Alone) | Standardized Freight Forwarder Job Costing Excel Template (This Tool) |
 | --- | --- | --- |
-| **Shipment-Level Visibility (B/L & AWB)** | General Ledger software blends all monthly invoices together, obscuring which specific shipments, trade lanes, or clients lose money. | Generates an instant **Booking-by-Booking P&L** breaking down Gross Revenue, Direct COGS, Bank Wire Fees, Net Profit, and Margin %. |
-| **Multi-Currency (FX) Reconciliation** | Operators convert EUR, CNY, GBP, and USD manually using ad-hoc rates, causing unexplainable margin discrepancies at month-end close. | Enforces a **centralized FX rate table** that converts every invoice line to a single base currency, throwing an explicit warning if a currency rate is missing. |
-| **Multi-Container FCL Cost Allocation** | Document fees, customs clearance, and booking-level surcharges are either double-counted per container or left out of container unit economics. | Dynamically separates **Direct Container COGS** from **Shared Booking Costs**, distributing shared fees evenly across the exact container count. |
-| **Accessorial & Service-Code Margin** | Forwarders know total invoice value but cannot tell if they are losing money on Drayage, Cargo Insurance, Origin Inspection, or THD/THC. | Aggregates revenue vs. vendor cost by **granular Freight Service Code**, revealing which value-added services generate profit vs. margin leakage. |
-| **Master-Data Integrity & Error Handling** | Misspelled Booking IDs or broken `VLOOKUP` links silently drop vendor costs to zero (inflating profit) or break the entire sheet with `#N/A` errors. | Built-in **Data-Health Diagnostic Layer** isolates invalid Booking IDs, Service Codes, and FX rates while keeping numeric roll-ups stable and audit-ready. |
+| **Per-Shipment Profit Visibility (`MBL` / `HBL` / `AWB`)** | Blends all monthly invoices into general ledger buckets, hiding which specific bookings, containers, or shippers lost money. | Generates an automatic **Booking-by-Booking P&L Table** showing Gross Revenue, Vendor COGS, Bank Wire Fees, Net Profit ($), and Margin (%). |
+| **Multi-Currency Invoice Conversion (`USD`, `EUR`, `CNY`, `GBP`)** | Staff convert foreign agent bills with desk calculators and inconsistent rates, causing unexplained margin gaps at month-end close. | Uses one **Centralized FX Rate Lookup Table** to convert every invoice line automatically and displays an instant warning if a currency rate is missing. |
+| **FCL Multi-Container Cost Splitting (`20'GP` / `40'HC` / `TEU`)** | B/L document fees, customs brokerage, and booking surcharges get duplicated per container or omitted from container unit cost calculations. | Automatically separates **Direct Container Bills** from **Shared Booking Overheads**, splitting shared fees across the exact container count per booking. |
+| **Accessorial & Charge-Code Margin (`THC`, `Drayage`, `Customs`)** | You see total shipment billing, but cannot tell if **Origin Inspection, Inland Drayage, Demurrage, or Cargo Insurance** is leaking profit. | Rolls up revenue vs. vendor cost by **Freight Service Code** so you can spot which accessorial charges make money and which ones lose money. |
+| **Formula Maintenance & Typo Protection (`VLOOKUP` / `SUMIFS`)** | Staff have to drag formulas down manually for every new row, and a single misspelled Booking ID silently drops vendor costs to zero. | **Pre-built Auto-Expanding Tables & Error Alerts** update automatically on paste and quarantine typos (`ERR: INVALID_BOOKING`) before they corrupt your P&L. |
 
 ---
 
-## Who This Is For: Target Logistics Roles & Operational Scenarios
+## Who This Is For: Logistics Roles, Spreadsheet Use Cases & Template Workflows
 
-This toolkit is engineered for **small-to-midsize freight forwarders (OTIs / NVOCCs), customs brokers, 3PL operators, and logistics finance teams** who need enterprise-grade shipment job costing without paying $20,000+ for a heavyweight TMS/ERP implementation:
+This toolkit is built for **small-to-midsize freight forwarders, OTI/NVOCC operators, customs brokers, 3PL teams, and freight agents** who want immediate shipment-level profit visibility without spending $20,000+ and six months setting up an enterprise ERP or TMS:
 
-* **Freight Forwarding Owners & Managing Directors:** Use this as an **executive shipment profitability and sales commission audit tool** to verify true net margins (after bank fees and shared costs) before signing annual shipper rate contracts or paying out sales rep commissions.
-* **Logistics Finance Managers & Freight Accountants:** Use this as a **monthly job-costing reconciliation template** to bridge the gap between general accounting software (QuickBooks, Xero, NetSuite) and operational shipment files—catching unbilled revenue or orphan vendor bills before closing the books.
-* **Freight Pricing Analysts & Trade-Lane Managers:** Use this as a **container unit-economics and accessorial margin analyzer** to see whether Ocean Freight, Air Freight, Customs Brokerage, Cargo Insurance, or Inland Drayage is driving or eroding profitability across specific trade lanes.
-* **Forwarding Operations Managers & Dispatchers:** Use this as a **multi-container FCL/LCL cost allocation calculator** when managing complex project cargo or multi-container bookings with mixed currencies and split vendor invoices.
-* **Fractional CFOs & Supply Chain Consultants:** Use this as a **plug-and-play margin leakage diagnostic framework** when auditing client freight portfolios or cleaning up messy operational spreadsheets.
+* **Freight Forwarding Owners & NVOCC Managing Directors (`Freight Forwarder Profit & Loss Excel Template`):** Audit real net profit per shipment (after bank wire fees and shared booking overheads) before approving annual shipper rate cards or paying monthly sales rep commissions.
+* **Junior Freight Operations Coordinators & Dispatchers (`Plug-and-Play Shipment Costing Spreadsheet`):** Track multi-container FCL and LCL job costs during busy shipping seasons by pasting raw vendor bills and customer charges into a pre-built template with zero formula writing.
+* **Logistics Bookkeepers & Freight Accounting Clerks (`Freight AR/AP Invoice Reconciliation Template`):** Bridge the gap between QuickBooks, Xero, or NetSuite exports and operational shipment files—catching unbilled customer accessorials or unlinked carrier bills before closing the monthly books.
+* **Freight Pricing Analysts & Trade-Lane Managers (`Container Unit Cost & Accessorial Margin Calculator`):** Analyze whether Ocean Freight, Air Cargo, Customs Brokerage, Cargo Insurance, or Local Drayage is driving or shrinking margins across specific origin-to-destination lanes.
+* **Fractional CFOs & Logistics Consultants (`3PL & Freight Margin Leakage Audit Model`):** Drop client billing exports into a standardized spreadsheet to uncover underpriced accounts, foreign-exchange losses, and unrecovered accessorial fees in a single afternoon.
 
-*Note: This workbook is **not** intended to replace an operational TMS (like CargoWise), an automated EDI booking platform, or a statutory tax accounting system. It is the lightweight **analytical job-costing execution layer** that connects your operational shipment records to their true financial outcome.*
+*Note: This Excel model complements your operational TMS (such as CargoWise, Magaya, or GoFreight) and tax accounting software. It acts as your fast, plug-and-play **shipment profitability and job costing layer** when you need clear answers from your billing data right away.*
 
 ---
 
-## Frequently Asked Freight Job Costing & Margin Scenarios
+## Common Freight Costing Scenarios: When to Use This Shipment P&L Spreadsheet
 
-If your forwarding operation struggles with any of the following financial reconciliation questions, this model is structured to solve them out of the box:
+Whether you are running a five-person forwarding office or managing hundreds of monthly FCL containers, this template solves the exact day-to-day costing problems that slow down logistics teams:
 
-* **Preventing Margin Leakage on Shipments:** *How do I reconcile customer AR invoices against delayed ocean carrier, drayage, and customs broker AP bills at the individual Booking or Bill of Lading (B/L) level?*
-* **FCL Multi-Container Cost Splitting:** *How do I accurately calculate per-container cost and profit when a single Booking includes 4x 40'HC containers with both container-specific drayage fees and shared B/L documentation charges?*
-* **Multi-Currency Freight Accounting in Excel:** *How do I build a shipment P&L tracker in Excel that handles USD ocean freight, EUR/CNY origin charges, and bank wire fees without manual FX conversion errors?*
-* **Auditing Sales Rep Gross Profit:** *How do I verify the true net margin of a freight booking before paying sales commissions on gross profit?*
+* **How to Calculate Profit Per Shipment in Excel Without Writing Formulas:** Paste your customer invoice lines and vendor bill lines into one table, tag each row with its `Booking_ID`, and let the pre-built summary sheet calculate Net Profit and Gross Margin % automatically.
+* **How to Split Shared Bill of Lading (B/L) Costs Across Multiple FCL Containers:** Assign container-specific charges (like drayage or THC) to individual `Container_ID` numbers and leave booking-wide charges (like customs clearance or documentation) at the `Booking_ID` level—the template splits shared costs across your 20'GP and 40'HC containers automatically.
+* **How to Reconcile Delayed Ocean Carrier & Drayage Bills Against Customer Invoices:** Keep open bookings in your log across calendar months so late arrival notices, detention/demurrage bills, or chassis split charges automatically deduct from the right shipment's profit margin when they arrive.
+* **How to Track Multi-Currency Freight Margins Across USD, EUR, and CNY:** Enter your reference exchange rates once in `Setup_Params` to normalize overseas origin agent invoices, ocean carrier freight, and local delivery billing into a single reporting currency.
+* **How to Audit Freight Broker & Sales Rep Gross Profit Commissions:** Verify that every vendor bill, origin fee, and bank wire charge is linked and accounted for before calculating sales commission payouts on shipment gross profit.
 
 ---
 
 ## About Theseus Workshop
 
-I build lightweight, audit-ready Excel and browser-based decision-support frameworks for operational environments where there are too many moving parts to hold in one person's head—but where a bloated enterprise software rollout is overkill.
+**Theseus Workshop** builds plug-and-play Microsoft Excel financial models and browser-based calculators for operators who need clear, reliable numbers today—without enterprise software bloat or complex spreadsheet programming.
 
-The central design question behind every tool is simple:
+Every template is designed around one practical goal:
 
-> **"What exact operational and financial data needs to sit in one place so the next business decision becomes mathematically obvious?"**
+> **"Put the exact operational and financial numbers in one pre-built table so your next business decision takes seconds instead of hours."**
 
-This **Booking-Level Profitability & Job Costing Engine** applies that principle to international freight forwarding—connecting the core operational unit (**the Booking & Container**) directly to its multi-currency transactions, accessorial service lines, data-health status, and true bottom-line profit.
+If you want to stop wrestling with broken `VLOOKUP` sheets and manual currency math, grab the full Excel template below or explore our complete library of operational spreadsheets and business calculators:
+
+* 📥 **Get This Freight Costing Template:** [Download the Unlocked Freight Forwarder Job Costing & Shipment P&L Excel Template (.xlsx)](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)
+* 🌐 **Test the Free Web Calculator:** [Open the Interactive Freight Forwarding Job Costing Browser App](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)
+* 🧰 **Explore All Ready-to-Use Excel Models & Business Toolkits:** [Visit the Official Theseus Workshop Store at TheseusWorkshop.com](https://www.google.com/search?q=https://www.theseusworkshop.com%3Futm_source%3Dgithub%26utm_medium%3DGitHub%2520README%26utm_campaign%3Dreadme%2520new%2520launch%26utm_content%3Dabout-section-store-link)
 
 ---
-
-*Keywords: Freight Forwarder Job Costing Excel Template, Shipment Profitability Calculator, Booking-Level P&L Spreadsheet, NVOCC Margin Tracker, FCL Container Cost Allocation Model, Freight Accounting AR/AP Reconciliation Template, Logistics Gross Margin Analysis.*
-
 
 ## Technical Details
 
