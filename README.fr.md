@@ -1,171 +1,175 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Modèle Excel de calcul des coûts par expédition pour transitaires & calculateur de rentabilité des envois (compte de résultat au niveau de l'expédition)
+# Modèle Excel de calcul des coûts par expédition pour transitaires : calculateur de profits et pertes (P&L) des envois, allocation des coûts de conteneurs & suivi des marges
 <img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/f89c1a0f-f576-43af-b26a-02bae4a47348" />
 
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-217346.svg)](#) [![Tool Type](https://img.shields.io/badge/Tool%20Type-Financial%20Spreadsheet%20Model-2251FF.svg)](#)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-Web%20Browser%20%2B%20Microsoft%20Excel%20(.xlsx)-217346.svg)](#) [![Tool Type](https://img.shields.io/badge/Tool%20Type-Plug--and--Play%20Freight%20Accounting%20Spreadsheet-2251FF.svg)](#)
 
-**Modèle Excel de calcul des coûts par expédition pour transitaires, prêt pour l'audit, et calculateur interactif de compte de résultat des envois, conçu pour suivre la marge brute au niveau de l'expédition, les conversions de change multidevises, l'allocation des coûts de conteneurs FCL/LCL et la rentabilité des frais de fret. Réconciliez les factures clients AR, les factures transporteurs AP, le camionnage, le dédouanement et les frais de virement bancaire dans un seul modèle financier logistique standardisé—disponible gratuitement dans votre navigateur ou sous forme de classeur Excel déverrouillé.**
+**Un modèle Excel de calcul des coûts par expédition pour transitaires (`.xlsx`) prêt à l'emploi et un calculateur en ligne gratuit de rentabilité des envois, conçus pour les transitaires, les NVOCC, les courtiers en douane et les opérateurs 3PL qui doivent calculer le bénéfice net par expédition sans écrire de formules.** Suivez les **marges brutes des connaissements (B/L) et des lettres de transport aérien (AWB)**, automatisez les **conversions de change multidevises (USD, EUR, CNY, GBP)**, répartissez les **coûts des conteneurs FCL/LCL** et réconciliez les **factures clients AR avec les factures fournisseurs AP des transporteurs maritimes, du camionnage, du courtage en douane et des virements bancaires** dans un seul tableur logistique de profits et pertes préconfiguré.
 
-**Aucune inscription. Aucune installation. Gratuit à tester dans votre navigateur.**
+**Testez-le gratuitement dans votre navigateur dès maintenant, ou téléchargez le fichier Excel déverrouillé pour coller vos propres données d'expédition.**
 
-Utilisez l'application web interactive pour examiner immédiatement le flux de travail de calcul des coûts par expédition, ou téléchargez le modèle de classeur Excel complet pour importer vos propres exports comptables—avec une garantie de remboursement de 30 jours, sans question.
+Chaque règle de correspondance, conversion de devise et formule de répartition des coûts de conteneurs est déjà intégrée. Collez vos lignes de facturation depuis QuickBooks, Xero ou votre tableur de suivi opérationnel pour voir votre bénéfice exact par réservation, par conteneur et par code de frais de fret en quelques secondes, avec une garantie de remboursement de 30 jours.
 
-> 🌐 **Lancer l'application web gratuite** → [Calculateur web interactif de calcul des coûts par expédition et de compte de résultat des envois pour transitaires](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)  
-> 📥 **Obtenir le modèle Excel complet** → [Télécharger le modèle Excel de calcul des coûts par expédition et de rentabilité des envois éditable pour transitaires](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)  
+> 🌐 **Essayez d'abord le calculateur en ligne** → [Lancez le calculateur web interactif gratuit de calcul des coûts par expédition et de compte de résultat des envois pour transitaires (démo navigateur, aucune configuration requise)](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)  
+> 📥 **Téléchargez le modèle Excel prêt à l'emploi** → [Obtenez le modèle Excel déverrouillé de calcul des coûts par expédition et de rentabilité des envois pour transitaires (.xlsx avec formules de mise à jour automatique)](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)  
 >
-> *L'édition navigateur et le classeur Excel téléchargeable partagent exactement la même architecture comptable relationnelle.*
+> *Le calculateur web gratuit et le classeur Microsoft Excel téléchargeable fonctionnent sur exactement les mêmes tables de comptabilité fret préconfigurées et les mêmes formules de marge automatisées.*
 
 ---
 
-## Ce que cet outil vous aide à suivre : correspondance entre points de douleur et solutions pour le transit
+## Ce que cet outil vous aide à suivre : correspondance entre les points de douleur du transit et les solutions
 
-Au lieu d'attendre les rapports comptables agrégés de fin de mois, ce **tableur logistique de calcul des coûts par expédition** suit et résout les angles morts opérationnels exacts qui provoquent des **fuites de marge** dans le fret maritime, aérien et multimodal :
+Attendre les rapports comptables de fin de mois masque quelles expéditions individuelles ont réellement gagné ou perdu de l'argent. Ce **tableur de calcul des coûts par expédition prêt à l'emploi** corrige les cinq angles morts comptables opérationnels les plus fréquents dans le fret maritime, le fret aérien et le transport multimodal :
 
-| Indicateur de suivi ciblé / Point de douleur | L'angle mort comptable fréquent du fret | Comment ce modèle de calcul des coûts par expédition le résout et le suit |
+| Sujet de recherche fréquent & objectif de suivi | Le point de douleur quotidien de la comptabilité fret (pourquoi la marge fuit) | Comment ce modèle Excel automatisé le corrige et le suit |
 | :--- | :--- | :--- |
-| **Compte de résultat au niveau de l'expédition et marge brute %** | Le profit n'est visible qu'au niveau mensuel de toute l'entreprise, ce qui masque les envois déficitaires et les lignes de trafic sous-évaluées. | Suit les **revenus AR vs. coût des ventes AP vs. frais de virement bancaire** par identifiant d'expédition individuel (niveau B/L ou AWB) pour révéler en temps réel le **bénéfice net et la marge %**. |
-| **Rentabilité par code de frais et services accessoires** | Connaître le revenu total d'un envoi sans savoir si le fret maritime, le camionnage, le dédouanement ou la surestarie ont réellement dégagé de l'argent. | Suit la contribution à la marge à travers des **codes de services de fret** granulaires (fret maritime, THC, inspection à l'origine, assurance fret, documentation, coordination). |
-| **Allocation des coûts partagés multi-conteneurs (FCL)** | Lorsqu'un B/L principal couvre plusieurs conteneurs, les frais forfaitaires au niveau de l'expédition sont dupliqués ou ignorés lors de l'analyse au niveau du conteneur. | Sépare les **coûts directs des conteneurs** des **coûts partagés au niveau de l'expédition**, en répartissant automatiquement les frais partagés entre les conteneurs selon une politique contrôlée. |
-| **Gains/pertes de change (FX) multidevises et normalisation** |Payer les transporteurs maritimes en USD, les agents d'origine en EUR/CNY et facturer les clients en devise locale avec des taux de change manuels incohérents. | Convertit toutes les lignes AR/AP en devises mixtes sur une **base USD standardisée** via une table de recherche de change centralisée avec des indicateurs d'exception automatisés pour les taux manquants. |
-| **Coûts fournisseurs non liés et audit de l'intégrité des données** | Les fautes de frappe dans les identifiants d'expédition, les codes de frais invalides ou les taux de change manquants font silencieusement tomber les coûts fournisseurs à $0, créant des marges artificiellement gonflées. | Exécute un **moteur de diagnostic d'intégrité des données** automatisé (`ERR: UNKNOWN_CURRENCY`, `ERR: INVALID_BOOKING`) qui met en quarantaine les enregistrements défectueux avant qu'ils ne corrompent votre compte de résultat. |
+| **Bénéfice par expédition & P&L au niveau de la réservation (`B/L` & `AWB`)** | QuickBooks et Xero regroupent les factures par mois civil, masquant les expéditions déficitaires, les devis sous-évaluées et les lignes de trafic non rentables. | Rapproche **les revenus AR clients, les factures AP fournisseurs et les frais de virement bancaire** de chaque `Booking_ID` individuel pour que vous voyiez en temps réel le **bénéfice net ($) et la marge brute (%) par expédition**. |
+| **Rentabilité par code de frais de fret et services accessoires** | Vous connaissez le montant total de la facture, mais vous ne pouvez pas dire si vous avez perdu de l'argent sur le **fret maritime, le camionnage local, la THC, le dédouanement, la surestarie ou l'assurance cargo**. | Décompose les revenus vs. les coûts fournisseurs selon des **codes de services de fret** granulaires (`Ocean Freight`, `THC`, `Origin Inspection`, `Drayage`, `Customs`, `Documentation`) pour révéler les dépassements de coûts cachés. |
+| **Répartition des coûts partagés multi-conteneurs FCL (`TEU` / `FEU`)** | Lorsqu'un connaissement principal (MBL) couvre plusieurs conteneurs, les frais forfaitaires de réservation (comme l'entrée en douane ou la documentation B/L) sont doublement comptés ou omis du prix par conteneur. | Sépare les **coûts directs par conteneur** des **frais partagés au niveau de la réservation**, en divisant automatiquement les coûts partagés de manière égale entre tous les conteneurs actifs de cette réservation. |
+| **Conversion des factures de fret multidevises (`USD`, `EUR`, `CNY`, `GBP`)** | Payer les transporteurs maritimes en USD, les agents d'origine en CNY ou EUR, et facturer les clients en devise locale avec des taux de change calculés à la main provoque des pertes de change en fin de mois. | Convertit chaque ligne AR et AP multidevise en votre **devise de reporting de base unique** via une table de recherche de change centralisée, en signalant immédiatement tout code de devise non configuré. |
+| **Détection des factures fournisseurs manquantes et des fautes de frappe dans le tableur** | Une seule faute de frappe dans un identifiant de réservation dans une feuille manuelle `SUMIFS` ou `VLOOKUP` fait silencieusement tomber une facture transporteur de 2 000 $ à `$0`, gonflant le bénéfice et entraînant un trop-perçu de commissions commerciales. | Exécute une **vérification automatique de l'intégrité des données** (`ERR: UNKNOWN_CURRENCY`, `ERR: INVALID_BOOKING`) qui met en évidence les lignes défectueuses bien en vue tout en préservant l'intégrité des totaux de votre tableau de bord. |
 
 ---
 
-## Comment réaliser un audit de rentabilité des envois et de calcul des coûts par expédition (flux de démarrage rapide)
+## Comment calculer le profit d'une expédition et réaliser un audit de calcul des coûts de fret (tutoriel débutant en 4 étapes)
 
-Transformez des exports ERP/comptables désordonnés, des factures transporteurs et des tableurs opérationnels en un **état de compte de résultat au niveau de l'expédition** propre en quatre étapes structurées :
+Vous n'avez besoin d'aucune formation comptable ni de compétences en formules Excel pour auditer vos marges d'expédition. Suivez ces quatre étapes pour transformer des listes de factures brutes et des factures transporteurs en un **état de profits et pertes réservation par réservation** précis :
 
-### Étape 1 : configurer la devise de base, les taux de change et les règles d'allocation
-Ouvrez la feuille de contrôle `Setup_Params` pour établir votre référence comptable de fret :
-- Définissez votre **devise de reporting de base** (par ex. USD) et renseignez les **taux de change (FX) de référence**.
-- Cartographiez vos **types de transaction** (revenus client, coût des ventes direct, frais bancaires/virements, dépôts client).
-- Sélectionnez votre **politique d'allocation des coûts partagés** pour les envois FCL multi-conteneurs.
+### Étape 1 : définissez votre devise de base, vos taux de change et votre politique de répartition des conteneurs
+Ouvrez l'onglet `Setup_Params` pour établir les règles de référence de votre entreprise en langage clair :
+- Choisissez votre **devise de reporting de base** (par ex. `USD`, `EUR` ou `GBP`) et saisissez vos **taux de change (FX) standard**.
+- Vérifiez les **catégories de transactions** pré-mappées (`Customer Revenue`, `Direct Vendor COGS`, `Bank Wire Fees` et `Customer Deposits`).
+- Sélectionnez votre **règle de répartition des coûts partagés** pour les expéditions FCL multi-conteneurs.
 
-*Action :* Inspectez instantanément la structure de paramètres préconfigurée dans la [démo navigateur gratuite de calcul des coûts par expédition](https://hyvoid.github.io/freight-forwarder-job-costing-excel/).
-
----
-
-### Étape 2 : importer les enregistrements maîtres d'expédition et les transactions AR/AP brutes
-Renseignez vos listes maîtresses (expéditions, conteneurs et catalogue de services de fret), puis collez ou chargez vos lignes financières dans `Raw_Transactions` :
-- **Sources de données compatibles :** exports QuickBooks/Xero, journaux de facturation TMS, factures de fret des transporteurs maritimes/NVOCC, relevés de courtiers en douane et suivis opérationnels manuels.
-- **Aucune reconstruction manuelle de VLOOKUP requise**—il suffit de déposer les lignes brutes dans le tableau de transactions standardisé.
+*Essayez en direct :* prévisualisez dès maintenant le fonctionnement de la table de configuration dans le [calculateur web gratuit de calcul des coûts par expédition pour transitaires](https://hyvoid.github.io/freight-forwarder-job-costing-excel/).
 
 ---
 
-### Étape 3 : auditer les exceptions d'intégrité des données et examiner le compte de résultat des envois automatisé
-Dès que les transactions sont chargées, le moteur de calcul des coûts par expédition effectue automatiquement les opérations suivantes :
-- Normaliser les devises étrangères vers votre devise de reporting de base.
-- Signaler les liens de données de base défectueux (`Data Health Status`) afin que les factures fournisseurs non liées ne se cachent jamais comme des éléments à coût nul.
-- Agréger les lignes vérifiées en **compte de résultat au niveau de l'expédition**, **ventilation de la marge par ligne de service** et **économie unitaire au niveau du conteneur**.
+### Étape 2 : collez vos réservations, conteneurs et lignes de factures AR/AP brutes
+Déposez vos identifiants d'expédition dans les listes maîtres (`Bookings` et `Containers`), puis copiez-collez vos lignes de facturation directement dans la table `Raw_Transactions` :
+- **Compatible avec toute source de données :** exports QuickBooks Online / Desktop, dumps CSV Xero, journaux de facturation CargoWise ou Magaya, factures de fret des transporteurs maritimes, relevés de courtiers en douane et suivis d'expédition manuels.
+- **Zéro glissement manuel de formules :** les tables Excel s'étendent automatiquement lorsque vous collez de nouvelles lignes.
 
 ---
 
-### Étape 4 : rafraîchir périodiquement et exporter vers Excel pour les opérations continues
-À mesure que de nouvelles navigations, factures fournisseurs ou frais de détention/surestarie arrivent, ajoutez-les au journal des transactions pour maintenir vos marges d'envoi à jour tout au long des cycles de facturation.
-
-> 💡 **Prêt à l'exécuter sur vos propres données d'envoi en direct et exports comptables ?**  
-> La version navigateur est conçue pour la vérification instantanée du flux de travail et les tests sur une seule session. Pour importer vos propres exports comptables CSV/Excel, personnaliser les catalogues de frais de fret, enregistrer les instantanés de clôture mensuelle et auditer chaque formule hors ligne :  
-> 👉 **[Télécharger le modèle Excel de calcul des coûts par expédition pour transitaires déverrouillé](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)** et transformez-le en votre moteur de rentabilité d'envoi mensuel reproductible.
-
----
-
-## La logique métier et la méthodologie
-
-Les logiciels comptables standard (comme QuickBooks ou Xero) sont construits autour du **plan comptable et des mois civils**, tandis que les transitaires opèrent autour des **expéditions, connaissements (B/L) et conteneurs** dont les revenus et factures fournisseurs s'étendent souvent sur plusieurs mois et plusieurs devises.
-
-Pour résoudre le décalage entre la comptabilité du grand livre et la logistique opérationnelle, cette boîte à outils met en œuvre une **méthodologie de calcul des coûts relationnelle à 4 piliers** :
-
-1. **Modélisation hiérarchique des entités relationnelles (`Booking → Container → Service Line`) :**  
-   Dans les opérations de fret, les coûts surviennent à différents niveaux structurels. Des frais de dédouanement ou des frais de documentation de connaissement s'appliquent une fois par **expédition**, tandis que les frais de manutention terminalaire (THC), le camionnage ou les frais de fractionnement de châssis s'appliquent par **conteneur (TEU/FEU)**. Aplatir ceux-ci dans un seul tableau provoque un double comptage sévère. Ce moteur impose une hiérarchie relationnelle stricte : les coûts directs des conteneurs se lient à `Container_ID`, tandis que les frais généraux à l'échelle de l'envoi se lient à `Booking_ID` et se répartissent dynamiquement via une formule d'allocation déterministe :
-   $$\text{Container Allocated Cost} = \text{Direct Container Cost} + \frac{\text{Booking-Level Shared Costs}}{\text{Total Active Containers in Booking}}$$
-2. **État de diagnostic découplé vs. agrégation numérique (architecture zéro échec silencieux) :**  
-   Dans les tableurs Excel standard, un identifiant d'expédition mal orthographié dans une formule `SUMIFS` ignore silencieusement une facture de transporteur maritime de $2,000—faisant apparaître un envoi déficitaire comme largement rentable. Inversement, une erreur `#N/A` dans un `VLOOKUP` casse tout le tableau de bord du compte de résultat. Ce modèle utilise une **méthode d'évaluation à double voie** : chaque ligne de transaction passe par un contrôle d'intégrité référentielle (`Data_Health_Status`) qui valide les identifiants d'expédition, les codes de service et les clés de devise avant l'exécution des calculs. Les lignes invalides produisent des chaînes de diagnostic explicites (`ERR: UNKNOWN_CURRENCY`, `ERR: ORPHAN_BOOKING`) tout en transmettant un `0` sûr au moteur d'agrégation, garantissant que le tableau de bord ne plante jamais tout en alertant visuellement les analystes sur des données de marge incomplètes.
-3. **Triangulation multidevises centralisée :**  
-   Le transit transfrontalier implique de payer les agents d'origine en CNY/EUR, de régler le fret maritime en USD et d'absorber les frais de virement bancaire intermédiaires. Le modèle normalise chaque ligne de transaction brute au niveau de la ligne d'article ($T_i \times \text{FX}_{\text{rate}}$) avant le cumul du compte de résultat, éliminant les distorsions d'arrondi et la dérive des taux de change courantes dans les conversions manuelles de synthèse.
-4. **Séparation compte de résultat de trésorerie vs. comptabilité d'exercice (dépôts vs. revenus acquis) :**  
-   Les transitaires collectent fréquemment des dépôts client initiaux ou des droits de douane anticipés avant le départ d'un navire. Mélanger les dépôts client avec les revenus de fret acquis déforme la marge brute réelle. Le moteur de classification des transactions isole explicitement les **dépôts de bilan** des **revenus, coût des ventes et frais bancaires du compte de résultat**, fournissant une vue précise de la marge unitaire accompagnée d'une visibilité sur la position de trésorerie.
+### Étape 3 : vérifiez les alertes d'erreur automatiques et consultez votre tableau de bord P&L des expéditions
+Dès que vous collez vos données, le tableur calcule tout en arrière-plan :
+- Convertit les factures fournisseurs et clients en devises étrangères dans votre devise de base.
+- Signale tout identifiant de réservation mal orthographié ou taux de devise manquant dans la colonne `Data Health Status`, afin qu'une facture fournisseur non liée ne se cache jamais comme un élément à coût nul.
+- Met à jour votre **synthèse de profits et pertes au niveau des réservations**, votre **table de marges par code de service de fret** et votre **ventilation des coûts unitaires par conteneur**.
 
 ---
 
-## Pourquoi j'ai conçu cet outil : réparer la chaîne analytique rompue du transit
+### Étape 4 : téléchargez le modèle Excel déverrouillé pour une réutilisation mensuelle en un clic
+Le calculateur navigateur gratuit est idéal pour une vérification rapide en une seule session. Lorsque vous devez enregistrer vos données localement, importer des centaines de lignes comptables mensuelles et suivre les départs de navires en cours à travers les cycles de facturation, passez au classeur `.xlsx` téléchargeable.
 
-La rentabilité du transit est bien plus difficile à voir qu'elle ne paraît sur un devis commercial.
+> 💡 **Pourquoi les transitaires débordés téléchargent le fichier Excel plutôt que de construire leur propre feuille :**  
+> La réconciliation de fret multidevises, la répartition des coûts multi-conteneurs et la détection des factures orphelines impliquent une logique comptable complexe sous le capot. **Dans ce modèle Excel, chaque règle de correspondance, chaque lien de recherche et chaque formule auto-extensible est déjà construit et testé pour vous.**  
+> 
+> Vous n'avez même pas besoin de cliquer-glisser les coins de cellules pour copier les formules vers le bas. Téléchargez simplement le fichier sur votre ordinateur, collez vos données de facturation brutes et obtenez instantanément des chiffres de bénéfice prêts pour l'audit. Pendant les pics de la saison d'expédition, consacrez votre temps à remporter des devis de chargeurs, à sécuriser l'espace navire et à déplacer la marchandise—tout en laissant un simple modèle à copier-coller gérer votre analyse financière en quelques secondes.  
+> 
+> 👉 **[Téléchargez le modèle Excel de calcul des coûts par expédition pour transitaires déverrouillé (.xlsx) et automatisez dès aujourd'hui le P&L de vos expéditions](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)**
 
-Une seule expédition maritime ou aérienne peut impliquer des frais de fret client, une inspection à l'origine, une assurance fret, des frais de documentation, du camionnage local, du fret maritime transporteur, des frais de virement bancaire, des dépôts client, plus de 3 devises et plusieurs conteneurs—dispersés à travers des suivis opérationnels et des exports comptables disparates.
+---
 
-Lorsque les transitaires perdent de l'argent sur un envoi, la cause profonde est rarement une mauvaise intention de tarification. **C'est une chaîne analytique rompue :**
-- Un envoi apparaît comme un **gagnant à 38.8% de marge brute** parce qu'une facture fournisseur de camionnage de $1,500 comportait une faute de frappe dans la référence d'expédition et a été exclue de la formule `SUMIFS`.
-- Un frais d'agent d'origine en devise étrangère a été omis parce que son taux de change n'avait pas été mis à jour dans la table de recherche.
-- Des coûts de dédouanement et de documentation partagés au niveau de l'expédition ont été accidentellement multipliés sur 5 conteneurs—ou entièrement ignorés—lors de la cotation des tarifs par conteneur au client.
+## La logique métier et la méthodologie : 4 angles morts de profit cachés que ce modèle Excel résout pour vous
 
-Par exemple, au lieu de faire aveuglément confiance à une synthèse défectueuse comme celle-ci :
+La plupart des transitaires perdent de l'argent sur des expéditions non pas parce qu'ils ont mal coté le taux maritime, mais parce que les outils comptables standard et les feuilles Excel maison masquent où va réellement l'argent. Voici comment ce modèle protège votre résultat net, en termes simples—même si vous n'avez aucune formation comptable formelle :
+
+### 1. Les logiciels comptables mensuels masquent les expéditions déficitaires (correspondance au niveau de la réservation vs. totaux mensuels)
+**Le fait objectif :** les logiciels comptables standard comme QuickBooks ou Xero organisent l'argent par **mois civil**, tandis que le transit s'organise par **réservation, connaissement (B/L) et conteneur**. Si vous facturez 8 000 $ à un client en octobre, mais que le transporteur maritime et le transporteur routier vous facturent 7 500 $ en novembre, octobre paraît artificiellement rentable et novembre affiche une perte.  
+**Votre bénéfice direct :** ce modèle regroupe chaque dollar de revenu, de coût fournisseur et de frais de virement bancaire par `Booking_ID`, quel que soit le mois d'arrivée de la facture. Vous voyez le véritable bénéfice net de chaque expédition avant de renouveler la grille tarifaire d'un client ou de verser des commissions commerciales.
+
+### 2. Les frais forfaitaires de réservation vs. les coûts par conteneur faussent vos devis (répartition automatique des coûts de conteneurs FCL)
+**Le fait objectif :** dans le fret maritime et multimodal, certains coûts surviennent une fois par **réservation** (comme des frais de dédouanement de 150 $ ou des frais de documentation B/L), tandis que d'autres surviennent par **conteneur** (comme des frais de manutention terminale de 450 $ ou le camionnage local par conteneur 40'HC). Dans un tableur basique, les opérateurs multiplient par erreur les 150 $ de frais de douane sur 5 conteneurs (gonflant les estimations de coûts de 600 $ et perdant l'appel d'offres) ou oublient d'inclure les frais partagés de réservation lors du calcul du profit par conteneur.  
+**Votre bénéfice direct :** le modèle sépare les coûts spécifiques aux conteneurs des coûts partagés à l'échelle de la réservation et répartit les frais partagés de manière égale sur le nombre exact de conteneurs de cette réservation :
 
 ```text
-Booking Revenue        $8,500
-Reported COGS          $5,200
-Apparent Net Profit    $3,300
-Reported Margin         38.8%  <-- (Artificially inflated by missing vendor bill)
+Single Container Total Cost = Direct Container Cost + (Shared Booking Costs ÷ Total Containers in Booking)
+
 ```
 
-Ce moteur de calcul des coûts signale immédiatement que le jeu de données de transactions sous-jacent contient un **coût fournisseur non lié** ou une **devise non configurée (`ERR: UNKNOWN_CURRENCY`)**. L'expédition est visiblement mise en quarantaine pour le nettoyage des données plutôt que présentée à la direction comme une marge propre de 38.8%.
+Vous obtenez des coûts unitaires exacts par conteneur sans effectuer de division manuelle.
 
-L'objectif n'est pas un autre joli tableau de bord de vanité. C'est un **cadre de raisonnement financier défendable** qui garantit que votre compte de résultat au niveau de l'expédition est mathématiquement solide avant de payer des commissions de vente ou de renouveler les cartes tarifaires client.
+### 3. Une seule faute de frappe dans un tableur maison fabrique silencieusement un faux bénéfice élevé (détection intégrée des fautes de frappe et des coûts manquants)
+
+**Le fait objectif :** dans une feuille Excel standard construite avec `SUMIFS`, une seule faute de frappe dans un numéro de référence de réservation sur une facture de camionnage fournisseur de 1 500 $ fait qu'Excel ignore complètement cette facture et ajoute `$0` à vos coûts. Inversement, un `VLOOKUP` cassé transforme toute votre table de synthèse en erreurs `#N/A`. Voyez comment une seule facture fournisseur non liée distord une réservation réelle :
+
+```text
+Reported Booking Revenue:   $8,500
+Reported Vendor Costs:      $5,200  <-- ($1,500 drayage bill skipped due to a Booking ID typo)
+Apparent Net Profit:        $3,300  <-- (Overstated by $1,500)
+Apparent Profit Margin:      38.8%  <-- (Fake margin; actual real margin is only 21.1%)
+
+```
+
+Si vous faites confiance à ce chiffre de 38,8 %, vous payez les commissions de vos commerciaux sur votre propre poche et continuez de coter une ligne de trafic qui est tout juste à l'équilibre.
+
+**Votre bénéfice direct :** chaque ligne que vous collez passe par une **vérification automatique de l'intégrité des données**. Si une ligne contient un identifiant de réservation mal orthographié, un code de frais invalide ou un taux de devise manquant, le modèle la signale clairement (`ERR: INVALID_BOOKING` ou `ERR: UNKNOWN_CURRENCY`) tout en gardant vos calculs de synthèse opérationnels. Vous repérez les factures fournisseurs manquantes avant qu'elles ne vous coûtent de l'argent.
+
+### 4. Les devises étrangères et les acomptes clients à l'avance faussent la marge brute réelle (FX au niveau de la ligne et isolation des acomptes)
+
+**Le fait objectif :** les expéditions transfrontalières combinent systématiquement du fret maritime en USD, des factures d'agents d'origine en CNY ou EUR, des frais de virement bancaires intermédiaires et des acomptes clients à l'avance. Convertir les totaux de devises à la main en fin de mois introduit des erreurs de taux de change, et compter les acomptes clients comme revenus acquis fait paraître une expédition rentable avant même que les factures fournisseurs ne soient payées.
+
+**Votre bénéfice direct :** le modèle convertit chaque facture en devise étrangère dans votre devise de base au niveau de chaque ligne et sépare les **acomptes clients (espèces détenues)** des **revenus de fret acquis et du COGS**. Vous voyez votre marge de profit réelle et votre position de trésorerie réelle côte à côte.
 
 ---
 
-## Tableurs comptables ad hoc vs. ce moteur de calcul des coûts par expédition de fret
+## Tableurs de fret manuels et logiciels comptables génériques vs. ce modèle Excel automatisé de calcul des coûts par expédition
 
-| Dimension d'évaluation | Tableurs manuels et comptabilité générique (sans cet outil) | Moteur de calcul des coûts par expédition de fret standardisé (avec cet outil) |
+| Facteur de comparaison opérationnelle | Feuilles Excel manuelles & comptabilité générique (QuickBooks / Xero seuls) | Modèle Excel standardisé de calcul des coûts par expédition pour transitaires (cet outil) |
 | --- | --- | --- |
-| **Visibilité au niveau de l'envoi (B/L et AWB)** | Les logiciels de grand livre mélangent toutes les factures mensuelles, occultant quels envois, lignes de trafic ou clients précis perdent de l'argent. | Génère instantanément un **compte de résultat expédition par expédition** ventilant le revenu brut, le coût des ventes direct, les frais de virement bancaire, le bénéfice net et la marge %. |
-| **Réconciliation multidevises (FX)** | Les opérateurs convertissent EUR, CNY, GBP et USD manuellement avec des taux ad hoc, provoquant des écarts de marge inexplicables à la clôture de fin de mois. | Impose une **table de taux de change centralisée** qui convertit chaque ligne de facture en une seule devise de base, en émettant un avertissement explicite si un taux de devise est manquant. |
-| **Allocation des coûts FCL multi-conteneurs** | Les frais de documentation, de dédouanement et les surtaxes au niveau de l'expédition sont soit doublement comptés par conteneur, soit laissés hors de l'économie unitaire des conteneurs. | Sépare dynamiquement le **coût des ventes direct des conteneurs** des **coûts partagés au niveau de l'expédition**, en répartissant les frais partagés uniformément sur le nombre exact de conteneurs. |
-| **Marge sur services accessoires et codes de service** | Les transitaires connaissent la valeur totale de la facture mais ne peuvent pas dire s'ils perdent de l'argent sur le camionnage, l'assurance fret, l'inspection à l'origine ou THD/THC. | Agrège le revenu vs. le coût fournisseur par **code de service de fret granulaire**, révélant quels services à valeur ajoutée génèrent du profit vs. des fuites de marge. |
-| **Intégrité des données de base et gestion des erreurs** | Les identifiants d'expédition mal orthographiés ou les liens `VLOOKUP` cassés font silencieusement tomber les coûts fournisseurs à zéro (gonflant le profit) ou cassent toute la feuille avec des erreurs `#N/A`. | Une **couche de diagnostic d'intégrité des données** intégrée isole les identifiants d'expédition, codes de service et taux de change invalides tout en gardant les cumuls numériques stables et prêts pour l'audit. |
+| **Visibilité du profit par expédition (`MBL` / `HBL` / `AWB`)** | Mélange toutes les factures mensuelles dans des postes de grand livre général, masquant quelles réservations, conteneurs ou chargeurs précis perdent de l'argent. | Génère une **table de P&L automatique réservation par réservation** affichant les revenus bruts, le COGS fournisseurs, les frais de virement bancaire, le bénéfice net ($) et la marge (%). |
+| **Conversion de factures multidevises (`USD`, `EUR`, `CNY`, `GBP`)** | Le personnel convertit les factures d'agents étrangers avec des calculatrices de bureau et des taux incohérents, provoquant des écarts de marge inexpliqués à la clôture de fin de mois. | Utilise une **table de recherche de taux de change centralisée** pour convertir chaque ligne de facture automatiquement et affiche un avertissement instantané si un taux de devise manque. |
+| **Répartition des coûts multi-conteneurs FCL (`20'GP` / `40'HC` / `TEU`)** | Les frais de documentation B/L, le courtage en douane et les surtaxes de réservation sont dupliqués par conteneur ou omis des calculs de coût unitaire des conteneurs. | Sépare automatiquement les **factures directes par conteneur** des **frais généraux partagés de réservation**, en répartissant les frais partagés sur le nombre exact de conteneurs par réservation. |
+| **Marge des services accessoires et codes de frais (`THC`, `Drayage`, `Customs`)** | Vous voyez la facturation totale de l'expédition, mais vous ne pouvez pas dire si **l'inspection à l'origine, le camionnage intérieur, la surestarie ou l'assurance cargo** fait fuir le profit. | Agrège les revenus vs. les coûts fournisseurs par **code de service de fret** pour repérer quels frais accessoires rapportent de l'argent et lesquels en font perdre. |
+| **Maintenance des formules & protection contre les fautes de frappe (`VLOOKUP` / `SUMIFS`)** | Le personnel doit glisser les formules manuellement pour chaque nouvelle ligne, et un seul identifiant de réservation mal orthographié fait silencieusement tomber les coûts fournisseurs à zéro. | **Tables auto-extensibles préconstruites & alertes d'erreur** se mettent à jour automatiquement au collage et mettent en quarantaine les fautes de frappe (`ERR: INVALID_BOOKING`) avant qu'elles ne corrompent votre P&L. |
 
 ---
 
-## À qui s'adresse cet outil : rôles logistiques cibles et scénarios opérationnels
+## À qui cela s'adresse : rôles logistiques, cas d'usage de tableurs & flux de travail du modèle
 
-Cette boîte à outils est conçue pour les **transitaires de petite à moyenne taille (OTI/NVOCC), les courtiers en douane, les opérateurs 3PL et les équipes financières logistiques** qui ont besoin d'un calcul des coûts par envoi de qualité entreprise sans payer $20,000+ pour une implémentation TMS/ERP lourde :
+Cette boîte à outils est conçue pour les **transitaires de petite et moyenne taille, les opérateurs OTI/NVOCC, les courtiers en douane, les équipes 3PL et les agents de fret** qui veulent une visibilité immédiate du profit au niveau des expéditions sans dépenser plus de 20 000 $ et six mois à déployer un ERP ou un TMS d'entreprise :
 
-* **Propriétaires d'entreprises de transit et directeurs généraux :** utilisez-le comme **outil exécutif d'audit de la rentabilité des envois et des commissions commerciales** pour vérifier les marges nettes réelles (après frais bancaires et coûts partagés) avant de signer des contrats tarifaires annuels avec les chargeurs ou de verser les commissions des représentants commerciaux.
-* **Directeurs financiers logistiques et comptables de fret :** utilisez-le comme **modèle mensuel de réconciliation du calcul des coûts par expédition** pour combler l'écart entre les logiciels comptables généraux (QuickBooks, Xero, NetSuite) et les fichiers opérationnels d'envoi—en détectant les revenus non facturés ou les factures fournisseurs orphelines avant la clôture des comptes.
-* **Analystes de tarification fret et gestionnaires de lignes de trafic :** utilisez-le comme **analyseur d'économie unitaire des conteneurs et de marge sur services accessoires** pour voir si le fret maritime, le fret aérien, le courtage en douane, l'assurance fret ou le camionnage intérieur stimule ou érode la rentabilité sur des lignes de trafic spécifiques.
-* **Responsables des opérations de transit et répartiteurs :** utilisez-le comme **calculateur d'allocation des coûts FCL/LCL multi-conteneurs** lors de la gestion de cargaisons de projet complexes ou d'expéditions multi-conteneurs avec devises mixtes et factures fournisseurs fractionnées.
-* **CFO à temps partiel et consultants en chaîne d'approvisionnement :** utilisez-le comme **cadre de diagnostic des fuites de marge prêt à l'emploi** lors de l'audit de portefeuilles de fret client ou du nettoyage de tableurs opérationnels désordonnés.
+* **Propriétaires d'entreprises de transit et directeurs généraux de NVOCC (`Freight Forwarder Profit & Loss Excel Template`) :** auditez le bénéfice net réel par expédition (après frais de virement bancaire et frais généraux partagés de réservation) avant d'approuver des grilles tarifaires annuelles de chargeurs ou de verser les commissions mensuelles des commerciaux.
+* **Coordinateurs d'opérations juniors et répartiteurs (`Plug-and-Play Shipment Costing Spreadsheet`) :** suivez les coûts des missions FCL et LCL multi-conteneurs pendant les saisons de pointe en collant des factures fournisseurs brutes et des frais clients dans un modèle préconstruit, sans écrire la moindre formule.
+* **Comptables logistiques et commis comptables fret (`Freight AR/AP Invoice Reconciliation Template`) :** comblez l'écart entre les exports QuickBooks, Xero ou NetSuite et les dossiers opérationnels d'expédition—en détectant les services accessoires clients non facturés ou les factures transporteurs non liées avant la clôture mensuelle des comptes.
+* **Analystes de tarification fret et gestionnaires de lignes de trafic (`Container Unit Cost & Accessorial Margin Calculator`) :** analysez si le fret maritime, le fret aérien, le courtage en douane, l'assurance cargo ou le camionnage local stimule ou réduit les marges sur des lignes d'origine à destination spécifiques.
+* **CFO à temps partiel et consultants logistiques (`3PL & Freight Margin Leakage Audit Model`) :** déposez les exports de facturation clients dans un tableur standardisé pour découvrir en un seul après-midi les comptes sous-évalués, les pertes de change et les frais accessoires non récupérés.
 
-*Remarque : ce classeur n'est **pas** destiné à remplacer un TMS opérationnel (comme CargoWise), une plateforme de réservation EDI automatisée ou un système comptable fiscal statutaire. C'est la **couche d'exécution analytique de calcul des coûts par expédition** légère qui relie vos enregistrements d'envoi opérationnels à leur véritable résultat financier.*
+*Remarque : ce modèle Excel complète votre TMS opérationnel (comme CargoWise, Magaya ou GoFreight) et votre logiciel de comptabilité fiscale. Il agit comme votre **couche rapide et prête à l'emploi de rentabilité des expéditions et de calcul des coûts** lorsque vous avez besoin de réponses claires de vos données de facturation immédiatement.*
 
 ---
 
-## Scénarios fréquemment demandés sur le calcul des coûts par expédition de fret et les marges
+## Scénarios courants de calcul des coûts de fret : quand utiliser ce tableur de P&L des expéditions
 
-Si votre opération de transit est confrontée à l'une des questions de réconciliation financière suivantes, ce modèle est structuré pour les résoudre dès la sortie de la boîte :
+Que vous gériez un bureau de transit de cinq personnes ou des centaines de conteneurs FCL mensuels, ce modèle résout les problèmes exacts de calcul des coûts quotidiens qui ralentissent les équipes logistiques :
 
-* **Prévenir les fuites de marge sur les envois :** *Comment réconcilier les factures client AR avec les factures AP retardées des transporteurs maritimes, du camionnage et des courtiers en douane au niveau de l'expédition individuelle ou du connaissement (B/L) ?*
-* **Fractionnement des coûts FCL multi-conteneurs :** *Comment calculer précisément le coût et le profit par conteneur lorsqu'une seule expédition comprend des conteneurs 4x 40'HC avec à la fois des frais de camionnage spécifiques au conteneur et des frais de documentation B/L partagés ?*
-* **Comptabilité fret multidevises dans Excel :** *Comment construire un suivi de compte de résultat des envois dans Excel qui gère le fret maritime USD, les frais d'origine EUR/CNY et les frais de virement bancaire sans erreurs de conversion manuelle de change ?*
-* **Auditer le bénéfice brut des représentants commerciaux :** *Comment vérifier la marge nette réelle d'une expédition de fret avant de payer des commissions de vente sur le bénéfice brut ?*
+* **Comment calculer le profit par expédition dans Excel sans écrire de formules :** collez vos lignes de factures clients et de factures fournisseurs dans une seule table, étiquetez chaque ligne avec son `Booking_ID`, et laissez la feuille de synthèse préconstruite calculer automatiquement le bénéfice net et la marge brute %.
+* **Comment répartir les coûts partagés du connaissement (B/L) sur plusieurs conteneurs FCL :** attribuez les frais spécifiques aux conteneurs (comme le camionnage ou la THC) à des numéros `Container_ID` individuels et laissez les frais à l'échelle de la réservation (comme le dédouanement ou la documentation) au niveau du `Booking_ID`—le modèle répartit automatiquement les coûts partagés entre vos conteneurs 20'GP et 40'HC.
+* **Comment réconcilier les factures retardées des transporteurs maritimes et du camionnage avec les factures clients :** conservez les réservations ouvertes dans votre journal à travers les mois civils afin que les avis d'arrivée tardifs, les factures de détention/surestarie ou les frais de fractionnement de châssis se déduisent automatiquement de la marge de la bonne expédition lorsqu'ils arrivent.
+* **Comment suivre les marges de fret multidevises entre USD, EUR et CNY :** saisissez une seule fois vos taux de change de référence dans `Setup_Params` pour normaliser les factures d'agents d'origine à l'étranger, le fret des transporteurs maritimes et la facturation de livraison locale dans une seule devise de reporting.
+* **Comment auditer les commissions de courtiers de fret et de commerciaux sur le bénéfice brut :** vérifiez que chaque facture fournisseur, frais d'origine et frais de virement bancaire est lié et comptabilisé avant de calculer les paiements de commissions commerciales sur le bénéfice brut des expéditions.
 
 ---
 
 ## À propos de Theseus Workshop
 
-Je conçois des cadres légers, prêts pour l'audit, basés sur Excel et le navigateur, d'aide à la décision, pour des environnements opérationnels où il y a trop de pièces en mouvement pour tenir dans une seule tête—mais où un déploiement logiciel d'entreprise gonflé serait excessif.
+**Theseus Workshop** construit des modèles financiers Microsoft Excel prêts à l'emploi et des calculateurs basés sur navigateur pour les opérateurs qui ont besoin de chiffres clairs et fiables dès aujourd'hui—sans gonflement de logiciel d'entreprise ni programmation complexe de tableurs.
 
-La question de conception centrale derrière chaque outil est simple :
+Chaque modèle est conçu autour d'un objectif pratique unique :
 
-> **« Quelles données opérationnelles et financières exactes doivent être réunies en un seul endroit pour que la prochaine décision métier devienne mathématiquement évidente ? »**
+> **« Placer les chiffres opérationnels et financiers exacts dans une seule table préconstruite pour que votre prochaine décision métier prenne des secondes au lieu d'heures. »**
 
-Ce **moteur de rentabilité et de calcul des coûts au niveau de l'expédition** applique ce principe au transit international—en reliant l'unité opérationnelle centrale (**l'expédition et le conteneur**) directement à ses transactions multidevises, ses lignes de service accessoires, son état d'intégrité des données et son véritable profit net.
+Si vous voulez arrêter de vous battre avec des feuilles `VLOOKUP` cassées et des calculs de devises manuels, téléchargez le modèle Excel complet ci-dessous ou explorez notre bibliothèque complète de tableurs opérationnels et de calculateurs d'affaires :
+
+* 📥 **Obtenir ce modèle de calcul des coûts de fret :** [Téléchargez le modèle Excel déverrouillé de calcul des coûts par expédition et de P&L des envois pour transitaires (.xlsx)](https://www.theseusworkshop.com/l/uyukd?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=freight-booking-job-costing)
+* 🌐 **Tester le calculateur web gratuit :** [Ouvrez l'application navigateur interactive de calcul des coûts par expédition pour transitaires](https://hyvoid.github.io/freight-forwarder-job-costing-excel/)
+* 🧰 **Explorer tous les modèles Excel prêts à l'emploi et boîtes à outils d'affaires :** [Visitez la boutique officielle Theseus Workshop sur TheseusWorkshop.com](https://www.google.com/search?q=https://www.theseusworkshop.com%3Futm_source%3Dgithub%26utm_medium%3DGitHub%2520README%26utm_campaign%3Dreadme%2520new%2520launch%26utm_content%3Dabout-section-store-link)
 
 ---
-
-*Mots-clés : modèle Excel de calcul des coûts par expédition pour transitaires, calculateur de rentabilité des envois, tableur de compte de résultat au niveau de l'expédition, suivi de marge NVOCC, modèle d'allocation des coûts de conteneurs FCL, modèle de réconciliation AR/AP de comptabilité fret, analyse de la marge brute logistique.*
-
 
 ## Détails techniques
 
@@ -181,15 +185,15 @@ La conception comporte 11 feuilles :
 | Couche              | Feuille                   | Rôle                                                                             |
 | ------------------ | ----------------------- | -------------------------------------------------------------------------------- |
 | Règles et paramètres | `Instructions`          | Instructions d'utilisation, règles de saisie et définitions métier               |
-| Règles et paramètres | `Setup_Params`          | Devise de base, taux de change, correspondances de transactions et politique d'allocation des coûts partagés |
-| Données de base        | `Booking_Master`        | Index des expéditions, client, statut et nombre de conteneurs                             |
-| Données de base        | `Container_Master`      | Relation expédition-conteneur 1:N                                            |
+| Règles et paramètres | `Setup_Params`          | Devise de base, taux de change, correspondances de transactions et politique de répartition des coûts partagés |
+| Données de base        | `Booking_Master`        | Index des réservations, client, statut et nombre de conteneurs                             |
+| Données de base        | `Container_Master`      | Relation réservation-conteneur 1:N                                            |
 | Données de base        | `Service_Master`        | Code de service standard, nom du service et catégorie                                |
-| Saisie des transactions  | `Raw_Transactions`      | Registre unifié des transactions financières plus les diagnostics d'intégrité des données                |
-| Moteur de calcul | `Job_Costing_Engine`    | Agrégation des revenus, du coût des ventes, des frais bancaires, du profit, de la marge et des dépôts au niveau de l'expédition  |
-| Analyse           | `Booking_PL`            | Compte de résultat d'une seule expédition et exploration par niveau de service                                  |
+| Saisie des transactions  | `Raw_Transactions`      | Registre unifié des transactions financières plus diagnostics d'intégrité des données                |
+| Moteur de calcul | `Job_Costing_Engine`    | Agrégation au niveau de la réservation des revenus, COGS, frais bancaires, profit, marge et acomptes  |
+| Analyse           | `Booking_PL`            | P&L d'une seule réservation et analyse descendante au niveau du service                                  |
 | Analyse           | `Container_Analysis`    | Coûts directs au niveau du conteneur et coûts partagés alloués                                |
-| Analyse           | `Service_Profitability` | Rentabilité par service transverse aux expéditions                                           |
+| Analyse           | `Service_Profitability` | Rentabilité par service transverse aux réservations                                           |
 | Sortie exécutive   | `Executive_Dashboard`   | KPI globaux, classements de rentabilité et avertissements d'intégrité des données                    |
 
 Le flux central est :
@@ -221,25 +225,25 @@ Booking_PL  Container_  Service_
           Executive_Dashboard
 ```
 
-L'architecture source identifie trois chaînes de recherche importantes à sauts multiples : une chaîne devise/traitement financier à quatre sauts, une chaîne d'analyse descendante coûts partagés/conteneur à quatre sauts et une chaîne de classification des services à trois sauts.
+L'architecture source identifie trois chaînes de recherche importantes à sauts multiples : une chaîne devise/traitement financier à quatre sauts, une chaîne d'analyse descendante coûts partagés/conteneur à quatre sauts et une chaîne de classification des services à trois sauts. 
 
-La règle de conception critique est que **les valeurs de calcul et les états de diagnostic restent séparés**. `USD Equivalent` reste numérique, tandis que `Data Health Status` porte les erreurs telles que `ERR: UNKNOWN_CURRENCY`. Cela préserve la compatibilité `SUMIFS` tout en empêchant les transactions défectueuses d'être incluses dans le moteur de compte de résultat.
+La règle de conception critique est que **les valeurs de calcul et les états de diagnostic restent séparés**. `USD Equivalent` reste numérique, tandis que `Data Health Status` porte les erreurs telles que `ERR: UNKNOWN_CURRENCY`. Cela préserve la compatibilité `SUMIFS` tout en empêchant les transactions défectueuses d'être incluses dans le moteur de compte de résultat. 
 
 ### Trois pièges qui surprennent même les opérateurs de transit expérimentés
 
 #### Piège 1 — Traiter un taux de change manquant comme un montant valide
 
-**1. Décision :** Une expédition semble avoir un certain coût et une certaine marge.
+**1. Décision :** Une réservation semble avoir un certain coût et une certaine marge.
 
 **2. Défaut caché :** Une transaction fournisseur est libellée dans une devise qui n'est pas configurée dans la table de change de référence.
 
-**3. Impact de la décision :** Si le taux manquant est incorrectement traité comme `1.0`, un montant étranger tel que `50,000` peut devenir `$50,000 USD`, déformant radicalement le résultat de l'expédition.
+**3. Impact de la décision :** Si le taux manquant est incorrectement traité comme `1.0`, un montant étranger tel que `50,000` peut devenir `$50,000 USD`, déformant radicalement le résultat de la réservation.
 
 **4. Pourquoi c'est faux :** Un taux de change manquant est un échec d'intégrité des données, pas un taux de change économique.
 
 **5. Approche correcte :** Retourner une valeur neutre numérique de `0` pour le champ de calcul tout en signalant séparément `ERR: UNKNOWN_CURRENCY`.
 
-**6. Décision corrigée :** L'expédition est signalée pour complétion des données au lieu de se voir attribuer un profit ou une perte faux.
+**6. Décision corrigée :** La réservation est signalée pour complétion des données au lieu de se voir attribuer un profit ou une perte faux.
 
 ```text
 Wrong:
@@ -274,15 +278,15 @@ Unknown Currency → FX = 0
  ))
 ```
 
-La règle importante est de **ne jamais prendre par défaut une devise inconnue à 1.0**.
+La règle importante est de **ne jamais prendre par défaut une devise inconnue à 1.0**. 
 
 </details>
 
-#### Piège 2 — Lire le compte de résultat d'une expédition avant de vérifier l'intégrité des données
+#### Piège 2 — Lire le P&L d'une réservation avant de vérifier l'intégrité des données
 
-**1. Décision :** Une expédition avec `$8,500` de revenus et `$5,200` de coût des ventes est considérée comme un profit de `$3,300`.
+**1. Décision :** Une réservation avec `$8,500` de revenus et `$5,200` de COGS est considérée comme un profit de `$3,300`.
 
-**2. Défaut caché :** Une ou plusieurs transactions sources ont des liens d'expédition ou de service invalides, ou une devise non résolue.
+**2. Défaut caché :** Une ou plusieurs transactions sources ont des liens de réservation ou de service invalides, ou une devise non résolue.
 
 **3. Impact de la décision :** La marge apparente peut être surestimée parce qu'une ligne de coût a silencieusement échoué à intégrer l'agrégation.
 
@@ -290,7 +294,7 @@ La règle importante est de **ne jamais prendre par défaut une devise inconnue 
 
 **5. Approche correcte :** Le moteur n'agrège que les transactions dont le `Data Health Status = "OK"` et signale séparément le nombre de lignes invalides.
 
-**6. Décision corrigée :** L'expédition est traitée comme **provisoire** jusqu'à ce que les exceptions de données soient résolues.
+**6. Décision corrigée :** La réservation est traitée comme **provisoire** jusqu'à ce que les exceptions de données soient résolues.
 
 ```text
 Wrong:
@@ -316,23 +320,23 @@ SUMIFS(
 )
 ```
 
-Le même filtre d'intégrité est appliqué au coût des ventes, aux frais bancaires et aux dépôts.
+Le même filtre d'intégrité est appliqué aux COGS, aux frais bancaires et aux acomptes. 
 
 </details>
 
-#### Piège 3 — Attribuer directement le coût partagé au niveau de l'expédition à chaque conteneur
+#### Piège 3 — Attribuer directement le coût partagé au niveau de la réservation à chaque conteneur
 
-**1. Décision :** Une expédition à deux conteneurs nécessite une vue de rentabilité au niveau du conteneur.
+**1. Décision :** Une réservation à deux conteneurs nécessite une vue de rentabilité au niveau du conteneur.
 
-**2. Défaut caché :** Une ligne de coût des ventes au niveau de l'expédition appartient à l'envoi dans son ensemble plutôt qu'à un conteneur spécifique.
+**2. Défaut caché :** Une ligne de COGS au niveau de la réservation appartient à l'expédition dans son ensemble plutôt qu'à un conteneur spécifique.
 
 **3. Impact de la décision :** Attribuer la totalité du coût partagé aux deux conteneurs double le coût apparent.
 
-**4. Pourquoi c'est faux :** La propriété économique du coût est au niveau de l'expédition, tandis que l'analyse requiert une règle d'allocation contrôlée.
+**4. Pourquoi c'est faux :** La propriété économique du coût est au niveau de la réservation, tandis que l'analyse requiert une règle d'allocation contrôlée.
 
-**5. Approche correcte :** Utiliser la politique configurée `EQUAL_SHARE` et diviser le coût des ventes partagé par le nombre de conteneurs de l'expédition.
+**5. Approche correcte :** Utiliser la politique configurée `EQUAL_SHARE` et diviser les COGS partagés par le nombre de conteneurs de la réservation.
 
-**6. Décision corrigée :** Chaque conteneur reçoit ses coûts directs plus sa part allouée du coût commun, préservant le total au niveau de l'expédition.
+**6. Décision corrigée :** Chaque conteneur reçoit ses coûts directs plus sa part allouée du coût commun, préservant le total au niveau de la réservation.
 
 ```text
 Booking shared COGS = $1,000
@@ -343,7 +347,7 @@ Allocated shared cost per container
 = $500
 ```
 
-Le classeur sépare explicitement les coûts directs des conteneurs des coûts partagés au niveau de l'expédition et utilise un dénominateur de nombre de conteneurs sûr.
+Le classeur sépare explicitement les coûts directs des conteneurs des coûts partagés au niveau de la réservation et utilise un dénominateur sûr du nombre de conteneurs. 
 
 <details>
 <summary>Logique de la formule</summary>
@@ -357,24 +361,24 @@ IF(
 )
 ```
 
-`Setup_Params!B6` contrôle si le coût partagé est alloué avec `EQUAL_SHARE` ou laissé non alloué avec `NO_ALLOCATE`.
+`Setup_Params!B6` contrôle si le coût partagé est alloué avec `EQUAL_SHARE` ou laissé non alloué avec `NO_ALLOCATE`. 
 
 </details>
 
 ### Exemple de scénario
 
-Considérez une expédition de transit avec les transactions valides suivantes :
+Considérez une réservation de transit avec les transactions valides suivantes :
 
 | Article                      | Type     | Montant original | Devise | Équivalent USD |
 | ------------------------- | -------- | --------------: | -------- | -------------: |
-| Facture client          | Revenu  |           8,500 | USD      |         $8,500 |
+| Facture client          | Revenue  |           8,500 | USD      |         $8,500 |
 | Coût fournisseur de fret maritime | COGS     |           3,000 | USD      |         $3,000 |
 | Inspection à l'origine         | COGS     |             900 | USD      |           $900 |
-| Assurance fret           | Revenu  |             400 | USD      |           $400 |
-| Frais bancaire               | Frais bancaire |              75 | USD      |            $75 |
-| Dépôt récupérable       | Dépôt  |             500 | USD      |           $500 |
+| Assurance cargo           | Revenue  |             400 | USD      |           $400 |
+| Frais bancaire               | Bank Fee |              75 | USD      |            $75 |
+| Acompte récupérable       | Deposit  |             500 | USD      |           $500 |
 
-Le compte de résultat valide est :
+Le P&L valide est :
 
 ```text
 Revenue
@@ -397,22 +401,22 @@ Profit Margin
 = 55.34%
 ```
 
-Le dépôt récupérable de `$500` est suivi séparément plutôt que traité comme un revenu d'exploitation ou un coût des ventes.
+L'acompte récupérable de `$500` est suivi séparément plutôt que traité comme un revenu d'exploitation ou un COGS.
 
-Supposez maintenant qu'une transaction fournisseur supplémentaire soit saisie dans une devise non configurée. Le système n'ajoute **pas** silencieusement la transaction au coût des ventes. Son taux de change appliqué devient `0`, son calcul USD reste numérique et le champ de diagnostic signale `ERR: UNKNOWN_CURRENCY`. L'expédition reçoit un avertissement d'intégrité au lieu d'être présentée comme propre.
+Supposez maintenant qu'une transaction fournisseur supplémentaire soit saisie dans une devise non configurée. Le système n'ajoute **pas** silencieusement la transaction aux COGS. Son taux de change appliqué devient `0`, son calcul USD reste numérique et le champ de diagnostic signale `ERR: UNKNOWN_CURRENCY`. La réservation reçoit un avertissement d'intégrité au lieu d'être présentée comme propre.
 
 La recommandation opérationnelle change en conséquence :
 
 > **N'utilisez pas la marge de 55.34% comme chiffre de rentabilité final tant que la transaction non résolue n'est pas corrigée.**
 
-C'est la distinction clé entre une calculatrice de rentabilité et un flux de travail de calcul des coûts contrôlé : le résultat est accompagné de preuves sur le fait que les données sous-jacentes sont suffisamment complètes pour être dignes de confiance.
+C'est la distinction clé entre un calculateur de rentabilité et un flux de travail de calcul des coûts contrôlé : le résultat est accompagné de preuves sur le fait que les données sous-jacentes sont suffisamment complètes pour être dignes de confiance.
 
 ### Référence des formules
 
 <details>
 <summary>Booking Master — Nombre de conteneurs</summary>
 
-**Objectif :** Déterminer le nombre de conteneurs attachés à chaque expédition et prévenir les échecs de division par zéro.
+**Objectif :** Déterminer le nombre de conteneurs attachés à chaque réservation et prévenir les échecs de division par zéro.
 
 ```excel
 =MAP(
@@ -432,7 +436,7 @@ C'est la distinction clé entre une calculatrice de rentabilité et un flux de t
 )
 ```
 
-Si aucun conteneur n'a encore été saisi, le dénominateur se rabat sur `1`. C'est une sauvegarde de calcul, tandis que la condition de conteneur manquant doit encore être traitée comme un problème de qualité des données opérationnellement.
+Si aucun conteneur n'a encore été saisi, le dénominateur se rabat sur `1`. C'est une sauvegarde de calcul, tandis que la condition de conteneur manquant doit encore être traitée comme un problème de qualité des données opérationnellement. 
 
 </details>
 
@@ -465,7 +469,7 @@ Si aucun conteneur n'a encore été saisi, le dénominateur se rabat sur `1`. C'
 )
 ```
 
-Une devise inconnue retourne `0`, pas `1.0`.
+Une devise inconnue retourne `0`, pas `1.0`. 
 
 </details>
 
@@ -493,7 +497,7 @@ Une devise inconnue retourne `0`, pas `1.0`.
 )
 ```
 
-La conception source utilise `COGS` comme repli conservateur pour un type de transaction non reconnu, réduisant le risque de surestimer le profit.
+La conception source utilise `COGS` comme repli conservateur pour un type de transaction non reconnu, réduisant le risque de surestimer le profit. 
 
 </details>
 
@@ -517,14 +521,14 @@ La conception source utilise `COGS` comme repli conservateur pour un type de tra
 )
 ```
 
-Garder cette colonne numérique est important parce que les calculs `SUMIFS` en aval ne devraient jamais recevoir de texte de diagnostic tel que `"INVALID"` à la place d'un nombre.
+Garder cette colonne numérique est important parce que les calculs `SUMIFS` en aval ne devraient jamais recevoir de texte de diagnostic tel que `"INVALID"` à la place d'un nombre. 
 
 </details>
 
 <details>
 <summary>Raw Transactions — Data Health Status</summary>
 
-**Objectif :** Valider les liens d'expédition, de service et de change indépendamment des colonnes de calcul financier.
+**Objectif :** Valider les liens de réservation, de service et de change indépendamment des colonnes de calcul financier.
 
 ```excel
 =MAP(
@@ -562,14 +566,14 @@ Garder cette colonne numérique est important parce que les calculs `SUMIFS` en 
 )
 ```
 
-La couche de diagnostic est intentionnellement séparée des champs de calcul numériques.
+La couche de diagnostic est intentionnellement séparée des champs de calcul numériques. 
 
 </details>
 
 <details>
-<summary>Job Costing Engine — Compte de résultat au niveau de l'expédition</summary>
+<summary>Job Costing Engine — P&L au niveau de la réservation</summary>
 
-**Objectif :** Générer une liste d'expéditions dynamique et n'agréger que les transactions saines.
+**Objectif :** Générer une liste de réservations dynamique et n'agréger que les transactions saines.
 
 ```excel
 =LET(
@@ -639,7 +643,7 @@ La couche de diagnostic est intentionnellement séparée des champs de calcul nu
 )
 ```
 
-Le contrôle essentiel est le critère répété `Data Health Status = "OK"`.
+Le contrôle essentiel est le critère répété `Data Health Status = "OK"`. 
 
 </details>
 
@@ -647,40 +651,40 @@ Le contrôle essentiel est le critère répété `Data Health Status = "OK"`.
 
 | Champ / condition      | Règle                                                            | Comportement en cas d'erreur                                                                     |
 | ---------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| `Booking ID`           | Doit exister dans `Booking_Master`                                  | `ERR: INVALID_BOOKING` ; transaction exclue du compte de résultat                              |
-| `Service Code`         | Doit exister dans `Service_Master`                                  | `ERR: INVALID_SERVICE` ; transaction exclue du compte de résultat                              |
+| `Booking ID`           | Doit exister dans `Booking_Master`                                  | `ERR: INVALID_BOOKING` ; transaction exclue du P&L                              |
+| `Service Code`         | Doit exister dans `Service_Master`                                  | `ERR: INVALID_SERVICE` ; transaction exclue du P&L                              |
 | `Currency`             | Doit avoir un taux de change configuré valide ou un taux de change manuel positif | Le change appliqué devient `0` ; le diagnostic signale `ERR: UNKNOWN_CURRENCY`                 |
 | `Manual FX Rate`       | Une valeur positive remplace le taux de change de référence                  | Une valeur invalide/non positive se rabat sur le change configuré                             |
-| `Transaction Type`     | Devrait correspondre à la correspondance `Setup_Params`                             | Un type inconnu se rabat conservativement sur `COGS`                                   |
+| `Transaction Type`     | Devrait correspondre au mappage `Setup_Params`                             | Un type inconnu se rabat conservativement sur `COGS`                                   |
 | `USD Equivalent`       | Doit rester numérique                                             | Le texte de diagnostic ne doit jamais être écrit dans le champ d'agrégation numérique           |
-| `Data Health Status`   | Doit être `OK` pour l'agrégation financière                          | Les lignes non OK sont exclues du compte de résultat de l'expédition                                          |
-| `Container Count`      | Ne doit pas devenir zéro lorsqu'il est utilisé comme dénominateur d'allocation        | Se rabat sur `1` pour prévenir `#DIV/0!`                                             |
-| Allocation des coûts partagés | Contrôlée par `Setup_Params!B6`                                 | `EQUAL_SHARE` alloue par nombre de conteneurs ; `NO_ALLOCATE` ne laisse que les coûts directs |
-| Rentabilité de l'expédition  | Un revenu de zéro ne doit pas produire d'erreur de division               | La marge retourne `0`                                                                 |
+| `Data Health Status`   | Doit être `OK` pour l'agrégation financière                          | Les lignes non OK sont exclues du P&L de la réservation                                          |
+| `Container Count`      | Ne doit pas devenir zéro lorsqu'il sert de dénominateur d'allocation        | Se rabat sur `1` pour prévenir `#DIV/0!`                                             |
+| Répartition des coûts partagés | Contrôlée par `Setup_Params!B6`                                 | `EQUAL_SHARE` alloue selon le nombre de conteneurs ; `NO_ALLOCATE` laisse uniquement les coûts directs |
+| Rentabilité de la réservation  | Un revenu de zéro ne doit pas produire d'erreur de division               | La marge retourne `0`                                                                 |
 | Intégrité des données exécutive  | Tout état non vide autre que `OK` est compté                 | Le tableau de bord affiche un avertissement au lieu de présenter un état propre non qualifié      |
 
-La validation croisée source confirme la couverture des entrées principales d'expédition, de conteneur, de service et de transaction, ainsi que des sorties d'équivalent USD, de bénéfice net, de marge et de coût alloué. Elle valide aussi spécifiquement la séparation entre le texte de diagnostic et les champs numériques `SUMIFS`.
+La validation croisée source confirme la couverture des entrées principales de réservation, de conteneur, de service et de transaction, ainsi que des sorties d'équivalent USD, de bénéfice net, de marge et de coût alloué. Elle valide aussi spécifiquement la séparation entre le texte de diagnostic et les champs numériques `SUMIFS`. 
 
 <!-- Technical Details parent <details> intentionally remains open for Part 2. -->
 ### Validation croisée et disponibilité au déploiement
 
-L'architecture du classeur est conçue pour valider la chaîne analytique **avant** que la direction ne s'appuie sur le compte de résultat qui en résulte.
+L'architecture du classeur est conçue pour valider la chaîne analytique **avant** que la direction ne s'appuie sur le P&L qui en résulte.
 
-L'implémentation source vérifie explicitement la chaîne de correspondance des types de transaction, la chaîne de recherche de change, la liaison Service Master, la chaîne d'allocation des coûts partagés et la compatibilité entre le texte de diagnostic et les champs d'agrégation numériques.
+L'implémentation source vérifie explicitement la chaîne de correspondance des types de transaction, la chaîne de recherche de change, la liaison Service Master, la chaîne de répartition des coûts partagés et la compatibilité entre le texte de diagnostic et les champs d'agrégation numériques. 
 
 | Dimension de validation         | Ce qui est vérifié                                                                  | Résultat attendu                                          |
 | ---------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Liaison d'expédition**          | Chaque `Booking ID` de transaction existe dans `Booking_Master`                        | Les lignes invalides reçoivent un état d'erreur                      |
-| **Liaison de service**          | Chaque `Service Code` de transaction existe dans `Service_Master`                      | Les lignes invalides sont exclues du compte de résultat                       |
+| **Liaison de réservation**          | Chaque `Booking ID` de transaction existe dans `Booking_Master`                        | Les lignes invalides reçoivent un état d'erreur                      |
+| **Liaison de service**          | Chaque `Service Code` de transaction existe dans `Service_Master`                      | Les lignes invalides sont exclues du P&L                       |
 | **Couverture de change**              | Chaque transaction a soit un taux de change manuel valide, soit un taux de référence configuré | Les devises inconnues déclenchent un avertissement d'intégrité              |
-| **Classification financière** | Le type de transaction se cartographie en Revenu / COGS / Frais bancaire / Dépôt                     | Les types inconnus utilisent le repli conservateur COGS         |
+| **Classification financière** | Le type de transaction se mappe en Revenue / COGS / Bank Fee / Deposit                     | Les types inconnus utilisent le repli conservateur COGS         |
 | **Agrégation numérique**      | `USD Equivalent` reste numérique en toutes conditions                            | `SUMIFS` ne rencontre pas de texte de diagnostic              |
-| **Agrégation conditionnée par l'intégrité** | Le compte de résultat n'inclut que `Data Health Status = "OK"`                                    | Les lignes sources défectueuses ne peuvent pas entrer silencieusement dans le profit déclaré |
-| **Allocation des conteneurs**     | Les coûts partagés au niveau de l'expédition utilisent la politique d'allocation configurée                  | Aucune attribution répétée du coût total entre les conteneurs       |
-| **Protection revenu zéro**  | Le calcul de la marge bénéficiaire gère Revenu = 0                                    | Pas de `#DIV/0!`                                             |
+| **Agrégation conditionnée par l'intégrité** | Le P&L n'inclut que `Data Health Status = "OK"`                                    | Les lignes sources défectueuses ne peuvent pas entrer silencieusement dans le profit déclaré |
+| **Allocation des conteneurs**     | Les coûts partagés au niveau de la réservation utilisent la politique d'allocation configurée                  | Aucune attribution répétée du coût total entre les conteneurs       |
+| **Protection revenu zéro**  | Le calcul de marge gère Revenu = 0                                    | Pas de `#DIV/0!`                                             |
 | **Surveillance exécutive**     | Les erreurs de transaction globales sont comptées séparément                                 | Le tableau de bord signale les problèmes de données source non résolus          |
 
-La matrice de validation croisée de l'implémentation indique que les champs d'entrée principaux — expédition, conteneur, service et données de transaction — et les sorties majeures — équivalent USD, bénéfice net, marge et coût alloué — sont couverts par l'architecture.
+La matrice de validation croisée de l'implémentation indique que les champs d'entrée principaux — réservation, conteneur, service et données de transaction — et les sorties majeures — équivalent USD, bénéfice net, marge et coût alloué — sont couverts par l'architecture. 
 
 ### SOP opérationnelle
 
@@ -702,17 +706,17 @@ Le modèle opérationnel envisagé est délibérément simple :
 
 #### 1. Établir les données de base
 
-Créer l'expédition dans `Booking_Master`.
+Créer la réservation dans `Booking_Master`.
 
-Si les conteneurs sont pertinents, créer leurs relations expédition-conteneur dans `Container_Master`.
+Si les conteneurs sont pertinents, créer leurs relations réservation-conteneur dans `Container_Master`.
 
 Maintenir le catalogue de services standardisé dans `Service_Master`.
 
-Ne pas commencer l'analyse financière en tapant des noms de service libres ou des identifiants d'expédition directement dans les feuilles de reporting. Les tables maîtresses sont la couche de référence pour les chaînes de recherche en aval.
+Ne pas commencer l'analyse financière en tapant des noms de service libres ou des identifiants de réservation directement dans les feuilles de reporting. Les tables maîtresses sont la couche de référence pour les chaînes de recherche en aval. 
 
 #### 2. Enregistrer les transactions financières
 
-Saisir les revenus, coûts fournisseurs, frais bancaires, dépôts et autres activités financières pertinentes dans `Raw_Transactions`.
+Saisir les revenus, coûts fournisseurs, frais bancaires, acomptes et autres activités financières pertinentes dans `Raw_Transactions`.
 
 Chaque transaction doit contenir les éléments appropriés :
 
@@ -725,7 +729,7 @@ Chaque transaction doit contenir les éléments appropriés :
 * `Currency`
 * `Manual FX Rate`, lorsqu'un taux spécifique à la transaction est requis
 
-Le tableau des transactions est la seule source qui devrait recevoir les enregistrements détaillés des événements financiers. Le moteur de calcul ne devrait pas être édité manuellement.
+La table des transactions est la seule source qui devrait recevoir les enregistrements détaillés des événements financiers. Le moteur de calcul ne devrait pas être édité manuellement. 
 
 #### 3. Vérifier l'intégrité des données
 
@@ -745,19 +749,19 @@ ERR: INVALID_SERVICE
 ERR: UNKNOWN_CURRENCY
 ```
 
-L'implémentation traite délibérément ceci comme une couche de contrôle séparée. Une transaction peut donc rester numériquement sûre tout en étant visiblement exclue du résultat financier.
+L'implémentation traite délibérément ceci comme une couche de contrôle séparée. Une transaction peut donc rester numériquement sûre tout en étant visiblement exclue du résultat financier. 
 
 #### 4. Examiner la rentabilité
 
 Utiliser :
 
-* `Job_Costing_Engine` pour la rentabilité au niveau de l'expédition.
-* `Booking_PL` pour la ventilation service par service d'une expédition.
-* `Container_Analysis` lorsque l'expédition contient plusieurs conteneurs.
-* `Service_Profitability` pour l'économie des services transverse aux expéditions.
+* `Job_Costing_Engine` pour la rentabilité au niveau de la réservation.
+* `Booking_PL` pour la ventilation service par service d'une réservation.
+* `Container_Analysis` lorsque la réservation contient plusieurs conteneurs.
+* `Service_Profitability` pour l'économie des services transverse aux réservations.
 * `Executive_Dashboard` pour la surveillance au niveau de la direction.
 
-Cela crée un chemin d'exploration descendante de la **rentabilité globale → expédition → service → conteneur → transaction** plutôt que de forcer chaque question à être répondue depuis un seul tableau de bord de synthèse.
+Cela crée un chemin d'exploration descendante de la **rentabilité globale → réservation → service → conteneur → transaction** plutôt que de forcer chaque question à être répondue depuis un seul tableau de bord de synthèse.
 
 ### Règles de maintenance des données
 
@@ -771,10 +775,10 @@ Les règles de maintenance les plus importantes sont :
 4. **Ne pas utiliser `1.0` comme repli de change manquant.**
 5. **Ne pas écrire de texte d'erreur dans les colonnes d'agrégation numériques.**
 6. **Ne pas éditer manuellement la sortie `Job_Costing_Engine`.**
-7. **Résoudre les lignes de transaction non OK avant de traiter une marge d'expédition comme finale.**
-8. **Garder la politique d'allocation des coûts partagés centralisée dans `Setup_Params`.**
+7. **Résoudre les lignes de transaction non OK avant de traiter une marge de réservation comme finale.**
+8. **Garder la politique de répartition des coûts partagés centralisée dans `Setup_Params`.**
 
-La conception source interdit spécifiquement de coder en dur les paramètres globaux dans les formules et centralise la devise de base, les taux de change, les correspondances de transactions et la politique d'allocation dans `Setup_Params`.
+La conception source interdit spécifiquement de coder en dur les paramètres globaux dans les formules et centralise la devise de base, les taux de change, les correspondances de transactions et la politique d'allocation dans `Setup_Params`. 
 
 ### Dépannage
 
@@ -783,15 +787,15 @@ La conception source interdit spécifiquement de coder en dur les paramètres gl
 **Causes probables :**
 
 * La devise est manquante dans la table de change.
-* L'identifiant d'expédition n'existe pas dans `Booking_Master`.
-* Le code de service n'existe pas dans `Service_Master`.
+* Le `Booking ID` n'existe pas dans `Booking_Master`.
+* Le `Service Code` n'existe pas dans `Service_Master`.
 * Une transaction source contient une liaison invalide.
 
 **Résolution :**
 
 Filtrer la colonne `Data Health Status` dans `Raw_Transactions` pour afficher les valeurs autres que `OK`.
 
-Puis résoudre chaque problème de données source sous-jacent plutôt que de modifier manuellement la sortie du compte de résultat.
+Puis résoudre chaque problème de données source sous-jacent plutôt que de modifier manuellement la sortie du P&L.
 
 Le tableau de bord exécutif est conçu pour exposer cette condition via une carte de santé globale :
 
@@ -849,7 +853,7 @@ Only OK rows enter P&L
 
 Une marge anormalement élevée peut être causée par une transaction de coût qui a échoué à la chaîne de liaison et a donc été exclue du calcul.
 
-C'est exactement pourquoi le classeur distingue **« zéro comme état de calcul numérique »** de **« zéro comme conclusion économique »**. Un taux de change manquant peut produire `$0.00` dans un champ numérique tout en produisant simultanément `ERR: UNKNOWN_CURRENCY` dans le champ de diagnostic.
+C'est exactement pourquoi le classeur distingue **« zéro comme état de calcul numérique »** de **« zéro comme conclusion économique »**. Un taux de change manquant peut produire `$0.00` dans un champ numérique tout en produisant simultanément `ERR: UNKNOWN_CURRENCY` dans le champ de diagnostic. 
 
 #### La rentabilité des conteneurs apparaît surestimée ou sous-estimée
 
@@ -859,22 +863,22 @@ Vérifier trois choses dans l'ordre :
 2. Le bon `Container ID` est-il sélectionné ?
 3. `Setup_Params!B6` utilise-t-il la politique d'allocation prévue ?
 
-Sous `EQUAL_SHARE`, le coût des ventes partagé au niveau de l'expédition est divisé par le nombre de conteneurs de l'expédition avant d'être ajouté aux coûts directs des conteneurs.
+Sous `EQUAL_SHARE`, les COGS partagés au niveau de la réservation sont divisés par le nombre de conteneurs de la réservation avant d'être ajoutés aux coûts directs des conteneurs.
 
-Sous `NO_ALLOCATE`, les coûts partagés au niveau de l'expédition ne sont pas attribués aux conteneurs individuels.
+Sous `NO_ALLOCATE`, les coûts partagés au niveau de la réservation ne sont pas attribués aux conteneurs individuels.
 
-La distinction importe parce qu'attribuer la totalité du coût partagé au niveau de l'expédition à chaque conteneur dupliquerait le même coût économique.
+La distinction importe parce qu'attribuer la totalité du coût partagé au niveau de la réservation à chaque conteneur dupliquerait le même coût économique. 
 
 ### Limites de l'implémentation
 
-Ce classeur est délibérément conçu comme une **couche de contrôle analytique légère**, et non comme un remplacement pour une plateforme comptable ou un système de gestion du transport.
+Ce classeur est délibérément conçu comme une **couche de contrôle analytique légère**, et non comme un remplacement d'une plateforme comptable ou d'un système de gestion du transport.
 
 Il est le plus fort lorsque :
 
 * les données opérationnelles et financières existent déjà dans des tableurs ou des exports ;
-* l'unité d'analyse clé est une expédition ou un envoi ;
-* la direction a besoin de la rentabilité au niveau de l'expédition ;
-* les services et frais doivent être comparés entre les expéditions ;
+* l'unité d'analyse clé est une réservation ou une expédition ;
+* la direction a besoin de la rentabilité au niveau des missions ;
+* les services et frais doivent être comparés entre les réservations ;
 * plusieurs devises nécessitent une base de reporting cohérente ;
 * les coûts partagés requièrent une règle d'allocation explicite ;
 * les utilisateurs ont besoin de formules transparentes plutôt que d'une automatisation opaque.
@@ -888,7 +892,7 @@ Il n'est pas conçu pour fournir :
 * la contrainte de clé étrangère au niveau de la base de données ;
 * l'orchestration de flux de travail d'entreprise.
 
-La valeur du classeur n'est donc pas le nombre de feuilles qu'il contient. C'est la chaîne analytique contrôlée reliant **expédition → transaction → classification → conversion de devise → agrégation validée → rentabilité → exploration descendante**.
+La valeur du classeur n'est donc pas le nombre de feuilles qu'il contient. C'est la chaîne analytique contrôlée reliant **réservation → transaction → classification → conversion de devise → agrégation validée → rentabilité → exploration descendante**.
 
 ### Principe de contrôle analytique
 
@@ -929,7 +933,7 @@ Correct the source data
 Recalculate
 ```
 
-Cette distinction est le fondement du modèle de fiabilité du moteur de calcul des coûts. L'architecture reconnaît explicitement que `SUMIFS` peut agréger en sécurité les valeurs numériques tout en ignorant silencieusement le texte, de sorte que les états de diagnostic ne doivent jamais être intégrés directement dans les colonnes de calcul numériques.
+Cette distinction est le fondement du modèle de fiabilité du moteur de calcul des coûts. L'architecture reconnaît explicitement que `SUMIFS` peut agréger en sécurité les valeurs numériques tout en ignorant silencieusement le texte, de sorte que les états de diagnostic ne doivent jamais être intégrés directement dans les colonnes de calcul numériques. 
 
 ### Séquence de déploiement recommandée
 
@@ -978,12 +982,12 @@ Executive_Dashboard
 Operational Review
 ```
 
-Le résultat est un flux de travail reproductible plutôt qu'un calcul de tableur ponctuel : établir les données de référence une fois, ajouter de nouvelles transactions opérationnelles, résoudre les exceptions et laisser les couches de calcul et d'analyse se mettre à jour à partir du même modèle de données sous-jacent.
+Le résultat est un flux de travail reproductible plutôt qu'un calcul de tableur ponctuel : établir les données de référence une fois, ajouter de nouvelles transactions opérationnelles, résoudre les exceptions et laisser les couches de calcul et d'analyse se mettre à jour à partir du même modèle de données sous-jacent. 
 
 <!-- Part 2 ends with the Technical Details parent <details> intentionally OPEN. Do not add </details> here. -->
 ### Notes finales d'architecture
 
-Le classeur est délibérément construit autour d'un **moteur de rentabilité unique au niveau de l'expédition**, plutôt que d'une collection de calculatrices déconnectées.
+Le classeur est délibérément construit autour d'un **moteur unique de rentabilité au niveau de la réservation**, plutôt que d'une collection de calculateurs déconnectés.
 
 La hiérarchie analytique est :
 
@@ -1005,15 +1009,15 @@ Booking
       Executive-level profitability & data health
 ```
 
-Cette structure garde l'expédition comme unité économique centrale tout en permettant aux utilisateurs de descendre dans les services et les conteneurs ou de remonter vers la rentabilité transverse aux expéditions.
+Cette structure garde la réservation comme unité économique centrale tout en permettant aux utilisateurs de descendre dans les services et les conteneurs ou de remonter vers la rentabilité transverse aux réservations. 
 
 L'implémentation reconnaît aussi explicitement trois chaînes de recherche à sauts multiples :
 
-1. **Transaction → Traitement financier → FX → Équivalent USD → compte de résultat de l'expédition**
-2. **Expédition → Nombre de conteneurs → Politique de coûts partagés → Allocation des coûts partagés → Analyse des conteneurs**
+1. **Transaction → Traitement financier → FX → Équivalent USD → P&L de la réservation**
+2. **Réservation → Nombre de conteneurs → Politique de coûts partagés → Répartition des coûts partagés → Analyse des conteneurs**
 3. **Code de service → Service Master → Catégorie de service → Rentabilité du service**
 
-Ces chaînes sont validées avant que les sorties analytiques ne soient considérées comme prêtes pour la production.
+Ces chaînes sont validées avant que les sorties analytiques ne soient considérées comme prêtes pour la production. 
 
 ### Ce contre quoi le moteur protège
 
@@ -1023,14 +1027,14 @@ Le principe de conception central n'est pas seulement l'automatisation. C'est **
 | ---------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Devise inconnue                                     | Le change prend par défaut `0`, tandis qu'un état de diagnostic séparé signale le taux manquant |
 | Type de transaction inconnu                             | Le repli conservateur `COGS` prévient l'inflation accidentelle du profit              |
-| Expédition invalide                                      | `ERR: INVALID_BOOKING`                                                         |
+| Réservation invalide                                      | `ERR: INVALID_BOOKING`                                                         |
 | Code de service invalide                                 | `ERR: INVALID_SERVICE`                                                         |
-| Chaîne de transactions rompue                             | Les lignes non `OK` sont exclues de l'agrégation du compte de résultat                                |
+| Chaîne de transactions rompue                             | Les lignes non `OK` sont exclues de l'agrégation du P&L                                |
 | Coût partagé dupliqué entre les conteneurs             | Politique d'allocation explicite et dénominateur de nombre de conteneurs                     |
 | Revenu zéro                                         | Le calcul de marge retourne `0` au lieu de `#DIV/0!`                            |
 | Texte de diagnostic contaminant les calculs financiers | Les colonnes de calcul numériques et les colonnes de diagnostic restent séparées             |
 
-La matrice de repli de l'implémentation rejette spécifiquement un repli de change à `1.0` parce que cela pourrait transformer un montant en devise étrangère non reconnue en un montant USD implausiblement grand.
+La matrice de repli de l'implémentation rejette spécifiquement un repli de change à `1.0` parce que cela pourrait transformer un montant en devise étrangère non reconnue en un montant USD implausiblement grand. 
 
 ### Modèle d'utilisation recommandé
 
@@ -1054,14 +1058,14 @@ Use Clean Results for Decisions
 
 Cela rend le classeur utile pour des questions récurrentes telles que :
 
-* Quelles expéditions sont réellement rentables ?
+* Quelles réservations sont réellement rentables ?
 * Quels services produisent les marges les plus fortes ?
-* Quels coûts d'envoi provoquent une perte inattendue ?
-* Quels coûts au niveau de l'expédition doivent être alloués aux conteneurs ?
+* Quels coûts d'expédition provoquent une perte inattendue ?
+* Quels coûts au niveau de la réservation doivent être alloués aux conteneurs ?
 * Les marges déclarées sont-elles dignes de confiance, ou des problèmes de données source non résolus cachent-ils des coûts ?
 * Sur quoi la tarification, la négociation fournisseur ou la revue opérationnelle devrait-elle se concentrer ensuite ?
 
-La SOP source suit la même séquence : établir les données de base, enregistrer les transactions financières, examiner `Data Health Status`, puis utiliser les tableaux de bord de rentabilité pour la revue.
+La SOP source suit la même séquence : établir les données de base, enregistrer les transactions financières, examiner `Data Health Status`, puis utiliser les tableaux de bord de rentabilité pour la revue. 
 
 ### Principe de conception final
 
@@ -1069,9 +1073,9 @@ Le classeur ne tente pas de faire paraître l'analyse financière plus simple en
 
 Il rend plutôt l'incertitude visible.
 
-Une expédition avec une marge calculée n'est pas automatiquement traitée comme une expédition digne de confiance.
+Une réservation avec une marge calculée n'est pas automatiquement traitée comme une réservation digne de confiance.
 
-Une **expédition propre** signifie :
+Une **réservation propre** signifie :
 
 ```text
 Valid Booking
@@ -1090,9 +1094,34 @@ Cette distinction est le cœur de l'implémentation.
 
 Une collection d'outils légers d'aide à la décision sous Excel couvrant le contrôle opérationnel, l'analyse de rentabilité, la réconciliation des stocks, la planification de la main-d'œuvre et d'autres flux de travail métier.
 
-* **Outils d'inventaire et de réconciliation** — analyse des stocks et des variances pilotée par les transactions.
-* **Outils de coûts et de rentabilité** — modèles de calcul des coûts opérationnels et d'économie unitaire.
-* **Outils de planification de la main-d'œuvre** — paie, capacité et planification annuelle de la main-d'œuvre.
+* **[rolling-cashflow-forecast](https://github.com/HyVoid/rolling-cashflow-forecast)** — Pourquoi la trésorerie est-elle toujours serrée ? — Prévoyez la liquidité future sous des hypothèses opérationnelles et financières changeantes.
+* **[Multi-Currency-Trade-Financial-Analyzer](https://github.com/HyVoid/Multi-Currency-Trade-Financial-Analyzer)** — Quels flux commerciaux sont réellement rentables après effets de change ? — Mesurez la rentabilité commerciale multidevises à travers des opérations transfrontalières.
+* **[RTL_Loan_Sizer_Pricer](https://github.com/HyVoid/RTL_Loan_Sizer_Pricer)** — Quelle structure de financement est soutenable selon différents scénarios d'emprunteur et de garantie ? — Comparez des scénarios de prêt avec des hypothèses de financement ajustées au risque.
+* **[Personal-Business-Dual-Track-Budget-Manager](https://github.com/HyVoid/Personal-Business-Dual-Track-Budget-Manager)** — Où la trésorerie personnelle et professionnelle est-elle mélangée ou mal allouée ? — Séparez les flux de trésorerie personnels et professionnels en pistes budgétaires suivies indépendamment.
+* **[Multifamily-Value-Add-Acquisition-Model](https://github.com/HyVoid/Multifamily-Value-Add-Acquisition-Model)** — Cette acquisition immobilière crée-t-elle encore de la valeur après rénovation et hypothèses d'exploitation ? — Évaluez les rendements d'acquisition multifamiliale sous financement de rénovation et scénarios d'exploitation.
+* **[Real-Estate-Valuation-all-in-one-calculator](https://github.com/HyVoid/Real-Estate-Valuation-all-in-one-calculator)** — Quelle est la valeur d'un bien selon les différentes méthodes d'évaluation ? — Calculez la valeur d'un bien selon plusieurs méthodes d'évaluation avec modélisation fiscale et des dépenses en capital.
+* **[multi-entity-expense-allocation](https://github.com/HyVoid/multi-entity-expense-allocation)** — Les coûts partagés sont-ils alloués équitablement entre les entités ou certains actifs sont-ils surchargés tandis que d'autres échappent à leur véritable exposition aux coûts ? — Répartissez les factures fournisseurs entre plusieurs entités juridiques et actifs opérationnels selon des méthodologies d'allocation configurables.
+* **[investment-pool-nav-excel-template](https://github.com/HyVoid/investment-pool-nav-excel-template)** — À combien s'élève réellement la part de chaque participant selon son moment d'entrée et la valeur actuelle du pool ? — Suivez la participation à un pool d'investissement en continu grâce à une comptabilité unitaire basée sur la NAV.
+* **[shopify-cash-flow-forecast-excel-toolkit](https://github.com/HyVoid/shopify-cash-flow-forecast-excel-toolkit)** — Quels engagements opérationnels créeront un problème de trésorerie dans les douze prochaines semaines ? — Connectez les transactions bancaires de ventes Shopify, les dépenses publicitaires et les achats de stock dans un cadre unifié de décision de flux de trésorerie.
+* **[Revenue-Management-Decision-Engine](https://github.com/HyVoid/Revenue-Management-Decision-Engine)** — Est-ce que suffisamment d'informations significatives ont changé pour justifier un ajustement de prix ? — Gouvernez les recommandations tarifaires via des garde-fous configurables qui préviennent la volatilité inutile des revenus.
+* **[amazon-wbr-sqp-analytics-template](https://github.com/HyVoid/amazon-wbr-sqp-analytics-template)** — Qu'a réellement changé dans l'activité cette période et quels produits ou mots-clés en ont été les moteurs ? — Transformez les exports Amazon Seller Central SQP et Sellerboard en revues d'affaires exécutives standardisées.
+* **[food-manufacturing-cost-calculator-excel](https://github.com/HyVoid/food-manufacturing-cost-calculator-excel)** — Quels produits sont réellement rentables après allocation de tous les coûts de fabrication et lesquels détruisent la marge ? — Allouez la main-d'œuvre d'usine, les services, les frais généraux et les coûts de matériaux à chaque SKU pour une véritable économie unitaire de fabrication.
+* **[ecommerce-profit-calculator-excel](https://github.com/HyVoid/ecommerce-profit-calculator-excel)** — Quelles commandes sont réellement rentables après tous les coûts cachés et où l'argent fuit-il à travers les canaux et les devises ? — Reconstituez la véritable rentabilité au niveau des commandes en réconciliant les versements de ventes, les frais d'expédition, les frais de paiement et les commissions de marketplaces à travers des opérations e-commerce multicanal.
+* **[construction-job-costing-excel-template](https://github.com/HyVoid/construction-job-costing-excel-template)** — Quels projets d'entrepreneur et quels clients sont réellement rentables après tous les coûts de chantier ? — Connectez l'estimation des prospects, l'exécution des chantiers et le suivi des coûts réels dans un cadre unifié de rentabilité des entrepreneurs.
+* **[Flora-Pastry-Coffee-Shop-Operating-Control-System](https://github.com/HyVoid/Flora-Pastry-Coffee-Shop-Operating-Control-System)** — La boutique est-elle réellement rentable après tous les coûts d'ingrédients, de main-d'œuvre et d'exploitation ? — Connectez le calcul des coûts des recettes, les ventes, la consommation de stock et les charges d'exploitation dans un cadre unifié de rentabilité et de trésorerie.
+* **[cross-entity-logistics-console](https://github.com/HyVoid/cross-entity-logistics-console)** — Quels conteneurs et quels clients sont réellement rentables à travers les opérations de douane et de flotte ? — Consolidez les données de dédouanement et d'exécution de flotte en une vue unique de rentabilité au niveau des conteneurs.
+* **[family-loan-tracker-excel](https://github.com/HyVoid/family-loan-tracker-excel)** — Que doit-on réellement aujourd'hui après des années de transferts et d'intérêts accumulés ? — Réconciliez des transferts de fonds à long terme et des intérêts courus en un solde impayé actuel.
+* **[3-statement-financial-model-excel](https://github.com/HyVoid/3-statement-financial-model-excel)** — À quoi ressembleront nos états financiers selon différents scénarios d'exploitation et de financement ? — Prévoyez des états financiers intégrés en reliant revenus, charges, fonds de roulement et dette dans un modèle unifié.
+* **[assisted-living-cost-allocation-excel](https://github.com/HyVoid/assisted-living-cost-allocation-excel)** — Quelle part de la marge déclarée de chaque établissement est réellement générée par cet établissement plutôt que par la façon dont les coûts du siège ont été alloués ? — Allouez les dépenses partagées entre unités opérationnelles tout en préservant les transactions sources et en réconciliant les résultats au niveau des unités avec les totaux de l'entreprise.
+* **[real-estate-development-feasibility-excel](https://github.com/HyVoid/real-estate-development-feasibility-excel)** — À quel prix maximal d'acquisition du foncier ce projet devient-il un investissement bancable ? — Évaluez les opportunités de développement résidentiel en filtrant les comparables fonciers, en estimant les coûts de construction et en calculant les seuils de profit sur coûts.
+* **[uk-residential-costing-software](https://github.com/HyVoid/uk-residential-costing-software)** — Ce projet de construction atteindra-t-il réellement sa marge cible une fois pris en compte la logistique de chantier, les coefficients de déchets et les variations de tarifs corps d'état ? — Séparez les quantités physiques du bâtiment des tarifs corps d'état volatils et des frais préliminaires de chantier pour cascader les majorations commerciales à travers les budgets d'appel d'offres et les devis clients.
+* **[b2b-pricing-landed-cost-excel-model](https://github.com/HyVoid/b2b-pricing-landed-cost-excel-model)** — Quels prix de gros et segments clients préservent réellement la marge une fois le fret, les droits, les conditions de paiement et le change entièrement coûtés ? — Calculez les coûts de revient au niveau SKU, le coût de service et les cascades de prix de marge nette pour simuler la rentabilité du commerce de gros transfrontalier.
+* **[custom-label-pricing-calculator](https://github.com/HyVoid/custom-label-pricing-calculator)** — Que devrions-nous facturer pour une commande d'étiquettes personnalisées à chaque palier de quantité pour rester compétitif et rentable ? — Calculez la tarification paramétrique des étiquettes en modélisant les coûts au pouce carré des substrats, les frais de mise en route et les remises par palier de quantité par rapport aux références concurrentielles.
+* **[landed-cost-calculator-retail-deduction-excel](https://github.com/HyVoid/landed-cost-calculator-retail-deduction-excel)** — Quelle est la véritable marge nette sur chaque SKU une fois les coûts de revient réels et les déductions des détaillants pris en compte ? — Réconciliez les coûts de revient estimés sur PO avec le fret réel, les droits, le change et le camionnage tout en auditant les déductions de reversement des détaillants pour révéler la marge nette au niveau SKU.
+* **[saas-finance-mrr-burn-rate-excel](https://github.com/HyVoid/saas-finance-mrr-burn-rate-excel)** — Pouvons-nous honorer cette semaine les engagements d'embauche, de marketing et fournisseurs sans manquer de trésorerie avant la clôture ? — Suivez le rythme hebdomadaire de consommation de trésorerie, l'écart du waterfall MRR/ARR, les métriques de rétention et les coûts de paie par rapport au budget avant la clôture de fin de mois.
+* **[startup-financial-model-excel](https://github.com/HyVoid/startup-financial-model-excel)** — Notre plan de croissance manquera-t-il de trésorerie avant que la monétisation des cohortes ne suive ? — Prévoyez la consommation de trésorerie pluriannuelle, la runway, l'économie unitaire et la dilution de levée de fonds à partir d'hypothèses ascendantes de cohortes et d'effectifs.
+* **[shopify-pnl-reconciliation-excel](https://github.com/HyVoid/shopify-pnl-reconciliation-excel)** — Chaque boutique Shopify est-elle réellement rentable une fois les véritables coûts au niveau SKU, les dépenses partagées et les frais bancaires réconciliés ? — Réconciliez les exports de ventes Shopify multi-boutiques avec les COGS au niveau SKU, les OPEX multidevises alloués et les relevés bancaires pour produire un P&L mensuel digne de confiance.
+* **[travel-agency-accounting-excel-template](https://github.com/HyVoid/travel-agency-accounting-excel-template)** — Quelles réservations de circuits génèrent réellement un bénéfice net et un flux de trésorerie positif après coûts fournisseurs et encaissements B2B ? — Calculez les coûts de mission par réservation de circuit, les marges brutes, le règlement AR/AP et la trésorerie d'exploitation à travers plusieurs devises.
 
 ## Licence
 
